@@ -1,34 +1,89 @@
+
+
 name: Auto Update Folder Tree (Only Last Modified Date)
 
 on:
+
   push:
-    branches: [ main, master ]     # 如果你的默认分支是 main 或 master，请保持一致
-  workflow_dispatch:               # 允许手动点击运行
+
+    branches: [ main, master ]
+
+  workflow_dispatch:
 
 jobs:
+
   update-tree:
+
     runs-on: ubuntu-latest
+
+    env:
+
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
     steps:
+
       - name: Checkout repository
+
         uses: actions/checkout@v4
 
       - name: Install tree command
+
         run: sudo apt-get update && sudo apt-get install -y tree
 
-      - name: Generate tree（只显示最后修改日期 YYYY-MM-DD + 忽略 .obsidian 和 .github）
+      - name: Generate tree（只显示最后修改日期 YYYY-MM-DD）
+
         run: |
+
           tree --dirsfirst \
+
                -I '.obsidian|.github|attachments|node_modules|.git|*.log|*.tmp' \
+
                -D \
+
                --timefmt '%Y-%m-%d' \
+
                -L 6 > TREE.md
 
-      - name: Insert tree into README.md
+      - name: Replace tree in README.md（使用 Python 稳定替换）
+
         run: |
-          sed -i '/### Auto-Generated Tree Structure/,/```bash/,/```/c\### Auto-Generated Tree Structure\n\n```bash\n'"$(cat TREE.md)"'\n```' README.md
+
+          python3 -c '
+
+import re
+
+with open("README.md", "r", encoding="utf-8") as f:
+
+    content = f.read()
+
+with open("TREE.md", "r", encoding="utf-8") as f:
+
+    tree = f.read().strip()
+
+new_block = f"""<!-- AUTO-TREE-START -->
+
+```bash
+
+{tree}
+
+```
+
+<!-- AUTO-TREE-END -->"""
+
+content = re.sub(r"<!-- AUTO-TREE-START -->.*?<!-- AUTO-TREE-END -->", new_block, content, flags=re.DOTALL)
+
+with open("README.md", "w", encoding="utf-8") as f:
+
+    f.write(content)
+
+          '
 
       - name: Commit & Push updated README
+
         uses: stefanzweifel/git-auto-commit-action@v5
+
         with:
-          commit_message: "chore: auto update folder tree (last modified date only) 🌳"
+
+          commit_message: "chore: auto update folder tree (last modified date) 🌳"
+
           file_pattern: README.md

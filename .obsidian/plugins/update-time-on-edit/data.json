@@ -1,0 +1,13 @@
+{
+  "dateFormat": "yyyy-MM-dd'T'HH:mm",
+  "enableCreateTime": true,
+  "headerUpdated": "updated",
+  "headerCreated": "created",
+  "minMinutesBetweenSaves": 1,
+  "ignoreGlobalFolder": [],
+  "ignoreCreatedFolder": [],
+  "enableExperimentalHash": false,
+  "fileHashMap": {
+    "README.md": "e943a044b2197e61e34402707a5cf551d053a90ca253c02cfc7b2d7a90d46d7a"
+  }
+}

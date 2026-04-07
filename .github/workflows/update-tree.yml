@@ -1,89 +1,51 @@
-
-
 name: Auto Update Folder Tree (Only Last Modified Date)
 
 on:
-
   push:
-
     branches: [ main, master ]
-
   workflow_dispatch:
 
 jobs:
-
   update-tree:
-
     runs-on: ubuntu-latest
-
     env:
-
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
     steps:
-
       - name: Checkout repository
-
         uses: actions/checkout@v4
 
       - name: Install tree command
-
         run: sudo apt-get update && sudo apt-get install -y tree
 
       - name: Generate tree（只显示最后修改日期 YYYY-MM-DD）
-
         run: |
-
           tree --dirsfirst \
-
                -I '.obsidian|.github|attachments|node_modules|.git|*.log|*.tmp' \
-
                -D \
-
                --timefmt '%Y-%m-%d' \
-
                -L 6 > TREE.md
 
       - name: Replace tree in README.md（使用 Python 稳定替换）
-
         run: |
-
           python3 -c '
-
 import re
-
 with open("README.md", "r", encoding="utf-8") as f:
-
     content = f.read()
-
 with open("TREE.md", "r", encoding="utf-8") as f:
-
     tree = f.read().strip()
-
 new_block = f"""<!-- AUTO-TREE-START -->
-
 ```bash
-
 {tree}
-
 ```
-
 <!-- AUTO-TREE-END -->"""
-
 content = re.sub(r"<!-- AUTO-TREE-START -->.*?<!-- AUTO-TREE-END -->", new_block, content, flags=re.DOTALL)
-
 with open("README.md", "w", encoding="utf-8") as f:
-
     f.write(content)
-
           '
 
       - name: Commit & Push updated README
-
         uses: stefanzweifel/git-auto-commit-action@v5
-
         with:
-
           commit_message: "chore: auto update folder tree (last modified date) 🌳"
-
           file_pattern: README.md

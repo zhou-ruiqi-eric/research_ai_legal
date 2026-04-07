@@ -1,3 +1,4 @@
+
 name: Auto Update Folder Tree (Only Last Modified Date)
 
 on:
@@ -26,9 +27,9 @@ jobs:
                --timefmt '%Y-%m-%d' \
                -L 6 > TREE.md
 
-      - name: Replace tree in README.md（使用 Python 稳定替换）
+      - name: Replace tree in README.md（使用稳定 Python 方式）
         run: |
-          python3 -c '
+          cat > replace_tree.py << 'EOF'
 import re
 with open("README.md", "r", encoding="utf-8") as f:
     content = f.read()
@@ -42,7 +43,8 @@ new_block = f"""<!-- AUTO-TREE-START -->
 content = re.sub(r"<!-- AUTO-TREE-START -->.*?<!-- AUTO-TREE-END -->", new_block, content, flags=re.DOTALL)
 with open("README.md", "w", encoding="utf-8") as f:
     f.write(content)
-          '
+EOF
+          python3 replace_tree.py
 
       - name: Commit & Push updated README
         uses: stefanzweifel/git-auto-commit-action@v5

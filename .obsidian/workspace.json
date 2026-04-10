@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "3258d3c4456194e9",
+        "id": "9b8bec9114fcca6b",
         "type": "tabs",
         "children": [
           {
-            "id": "f3459f947f1fe684",
+            "id": "a9d54e64faed9770",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "db/RegTech/compliance.ai.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "ac424a1a76e30b4e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "README"
+              "title": "compliance.ai"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "229660bf1cb79bd1",
@@ -109,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "db/RegTech/compliance.ai.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "README 的反向链接列表"
+              "title": "compliance.ai 的反向链接列表"
             }
           },
           {
@@ -128,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "db/RegTech/compliance.ai.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "README 的出链列表"
+              "title": "compliance.ai 的出链列表"
             }
           },
           {
@@ -157,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "db/RegTech/compliance.ai.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "README 的大纲"
+              "title": "compliance.ai 的大纲"
             }
           }
         ]
@@ -185,17 +171,24 @@
       "file-tree-generator:Generate file tree": false
     }
   },
-  "active": "ac424a1a76e30b4e",
+  "active": "a9d54e64faed9770",
   "lastOpenFiles": [
-    "ai_legal/category1/company1.md",
+    "LICENSE",
+    "DISCLAIMER.md",
     "README.md",
+    "db/RegTech/compliance.ai.md",
+    "db/RegTech",
+    "Template.md",
+    "未命名.base",
+    "db",
+    "ai_legal/temp",
+    "ai_legal/category1/company1.md",
     "temp.md",
     "ai_legal/category2/company2.md",
     "ai_legal/category2",
     "ai_legal/category1",
     "ai_legal",
     "folder_tree/tree.md",
-    "folder_tree",
-    "未命名.base"
+    "folder_tree"
   ]
 }

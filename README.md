@@ -8,16 +8,16 @@ The goal of this project is to provide a clear overview of all major categories 
 <!-- AUTO-TREE-START -->
 ```bash
 [2026-04-10]  .
-├── [2026-04-10]  ai_legal
-│   ├── [2026-04-10]  category1
-│   │   └── [2026-04-10]  company1.md
-│   └── [2026-04-10]  category2
-│       └── [2026-04-10]  company2.md
+├── [2026-04-10]  db
+│   └── [2026-04-10]  RegTech
+│       └── [2026-04-10]  compliance.ai.md
+├── [2026-04-10]  DISCLAIMER.md
 ├── [2026-04-10]  License
 ├── [2026-04-10]  README.md
-└── [2026-04-10]  TREE.md
+├── [2026-04-10]  TREE.md
+└── [2026-04-10]  Template.md
 
-4 directories, 5 files
+3 directories, 6 files
 ```
 <!-- AUTO-TREE-END -->
 

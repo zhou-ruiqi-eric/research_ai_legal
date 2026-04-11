@@ -20,22 +20,22 @@ It is a **curated visual knowledge map** designed to organize the AI industry, l
   - Third level (blue): Specific companies or websites
 
 .
-├── $${\color{teal}\text{AI-Legal}}$$
-│   ├── $${\color{orange}\text{GRC}}$$
-│   │   └── $${\color{orange}\text{scytale.ai}}$$
-│   ├── $${\color{orange}\text{RegTech}}$$
-│   │   └── $${\color{orange}\text{compliance.ai}}$$
-│   └── $${\color{orange}\text{Secureframe}}$$
-├── $${\color{green}\text{KnowledgeBase}}$$
-│   ├── $${\color{orange}\text{GDPR}}$$
-│   ├── $${\color{orange}\text{HIPAA}}$$
-│   ├── $${\color{orange}\text{ISO 27001}}$$
-│   ├── $${\color{orange}\text{ISO 42001}}$$
-│   ├── $${\color{orange}\text{PCI DSS}}$$
-│   ├── $${\color{orange}\text{SOC 1}}$$
-│   ├── $${\color{orange}\text{SOC 2}}$$
-│   └── $${\color{orange}\text{SOX ITGC}}$$
-└── $${\color{orange}\text{DISCLAIMER}}$$
+├── ${\color{teal}\text{AI-Legal}}$
+│   ├── ${\color{orange}\text{GRC}}$
+│   │   └── ${\color{orange}\text{scytale.ai}}$
+│   ├── ${\color{orange}\text{RegTech}}$
+│   │   └── ${\color{orange}\text{compliance.ai}}$
+│   └── ${\color{orange}\text{Secureframe}}$
+├── ${\color{green}\text{KnowledgeBase}}$
+│   ├── ${\color{orange}\text{GDPR}}$
+│   ├── ${\color{orange}\text{HIPAA}}$
+│   ├── ${\color{orange}\text{ISO 27001}}$
+│   ├── ${\color{orange}\text{ISO 42001}}$
+│   ├── ${\color{orange}\text{PCI DSS}}$
+│   ├── ${\color{orange}\text{SOC 1}}$
+│   ├── ${\color{orange}\text{SOC 2}}$
+│   └── ${\color{orange}\text{SOX ITGC}}$
+└── ${\color{orange}\text{DISCLAIMER}}$
 <!-- AUTO-TREE-END -->
 
 

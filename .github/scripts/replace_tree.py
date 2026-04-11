@@ -8,7 +8,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 with open("TREE.md", "r", encoding="utf-8") as f:
     tree_lines = f.read().strip().splitlines()
 
-# Color function with proper escaping for re.sub()
+# Color function — using safe string concatenation (no f-string issues)
 def color_name(name: str, prefix: str) -> str:
     name = name.strip()
     if not name:
@@ -16,23 +16,23 @@ def color_name(name: str, prefix: str) -> str:
 
     # Knowledge_Base → Green
     if "Knowledge_Base" in name:
-        return f"$${{\\\\color{{green}}{{{name}}}}}}$$"
+        return "$${\\color{green}{" + name + "}}$$"
     
     # Individual → Violet
     if "Individual" in name:
-        return f"$${{\\\\color{{violet}}{{{name}}}}}}$$"
+        return "$${\\color{violet}{" + name + "}}$$"
     
     # AI Industry top-level (AI-Legal, AI-Medicine...) → Teal
     if name.startswith("AI-"):
-        return f"$${{\\\\color{{teal}}{{{name}}}}}}$$"
+        return "$${\\color{teal}{" + name + "}}$$"
     
     # Sub-segments (GRC, RegTech...) → Orange
     if any(sym in prefix for sym in ["├──", "└──", "│   ", "│   "]) and len(prefix.strip()) > 0:
-        return f"$${{\\\\color{{orange}}{{{name}}}}}}$$"
+        return "$${\\color{orange}{" + name + "}}$$"
     
     # Companies / third level → Blue
     if any(sym in prefix for sym in ["│   │", "│   │", "    "]) or len(prefix) > 8:
-        return f"$${{\\\\color{{blue}}{{{name}}}}}}$$"
+        return "$${\\color{blue}{" + name + "}}$$"
     
     return name
 
@@ -54,23 +54,22 @@ for line in tree_lines:
 tree_colored = "\n".join(processed_tree)
 
 # Full explanation + legend block
-new_block = f"""### 🌳 AI & Legal Knowledge Map
+new_block = """### 🌳 AI & Legal Knowledge Map
 
 **This is not** the literal output of the `tree` command.  
 It is a **curated visual knowledge map** designed to organize the AI industry, legal-tech research, and people.
 
 **Color Legend & Structure (3 Types of Folders):**
-- $$\\color{{violet}}{{👤 Individual}}$$ → Real people names & profiles
-- $$\\color{{green}}{{📚 Knowledge_Base}}$$ → Concepts, standards, certificates, frameworks (used as [[wiki links]])
-- $$\\color{{teal}}{{🤖 AI Industry}}$$:
+- $${\\color{violet}{👤 Individual}}$$ → Real people names & profiles
+- $${\\color{green}{📚 Knowledge_Base}}$$ → Concepts, standards, certificates, frameworks (used as [[wiki links]])
+- $${\\color{teal}{🤖 AI Industry}}$$:
   - Top level (teal): Major domains (AI-Legal, AI-Medicine…)
   - Second level (orange): Sub-segments (GRC, RegTech…)
   - Third level (blue): Specific companies or websites
 
 ---
 
-{tree_colored}
-"""
+""" + tree_colored
 
 # Safe replacement
 content = re.sub(

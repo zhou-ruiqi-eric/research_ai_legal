@@ -14,7 +14,7 @@ def color_name(name: str, prefix: str) -> str:
     if not name:
         return name
 
-    if "Knowledge_Base" in name:
+    if "KnowledgeBase" in name:
         return "$${\\color{green}\\text{" + name + "}}$$"
     
     if "Individual" in name:
@@ -57,7 +57,7 @@ It is a **curated visual knowledge map** designed to organize the AI industry, l
 
 **Color Legend & Structure (3 Types of Folders):**
 - $${\\color{violet}\\text{👤 Individual}}$$ → Real people names & profiles  
-- $${\\color{green}\\text{📚 Knowledge_Base}}$$ → Concepts, standards, certificates, frameworks (used as [[wiki links]])  
+- $${\\color{green}\\text{📚 KnowledgeBase}}$$ → Concepts, standards, certificates, frameworks (used as [[wiki links]])  
 - $${\\color{teal}\\text{🤖 AI Industry}}$$:
   - Top level (teal): Major domains (AI-Legal, AI-Medicine…)  
   - Second level (orange): Sub-segments (GRC, RegTech…)  

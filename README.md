@@ -13,7 +13,7 @@ It is a **curated visual knowledge map** designed to organize the AI industry, l
 
 **Color Legend & Structure (3 Types of Folders):**
 - $${\color{violet}\text{👤 Individual}}$$ → Real people names & profiles  
-- $${\color{green}\text{📚 Knowledge_Base}}$$ → Concepts, standards, certificates, frameworks (used as [[wiki links]])  
+- $${\color{green}\text{📚 KnowledgeBase}}$$ → Concepts, standards, certificates, frameworks (used as [[wiki links]])  
 - $${\color{teal}\text{🤖 AI Industry}}$$:
   - Top level (teal): Major domains (AI-Legal, AI-Medicine…)  
   - Second level (orange): Sub-segments (GRC, RegTech…)  
@@ -26,7 +26,7 @@ It is a **curated visual knowledge map** designed to organize the AI industry, l
 │   ├── $${\color{orange}\text{RegTech}}$$
 │   │   └── $${\color{orange}\text{compliance.ai}}$$
 │   └── $${\color{orange}\text{Secureframe}}$$
-├── $${\color{green}\text{Knowledge_Base}}$$
+├── $${\color{green}\text{KnowledgeBase}}$$
 │   ├── $${\color{orange}\text{GDPR}}$$
 │   ├── $${\color{orange}\text{HIPAA}}$$
 │   ├── $${\color{orange}\text{ISO 27001}}$$

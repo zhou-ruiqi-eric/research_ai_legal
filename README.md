@@ -12,6 +12,12 @@ $\color{white}{\text{├─────────── }}$
 $\color{white}{\text{AI-Legal}}$
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────── }}$
+$\color{white}{\text{Business Plan Generator}}$
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad└─────────── }}$
+[<span style="color:white">growth-grid.ai</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/Business Plan Generator/growth-grid.ai.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────── }}$
 $\color{white}{\text{CMP(Consent Management Platform)}}$
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad└─────────── }}$
@@ -68,7 +74,10 @@ $\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────�
 $\color{white}{\text{│\qquad\qquad\qquad\qquad└─────────── }}$
 [<span style="color:white">SOX ITGC</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/KnowledgeBase/SOX%20ITGC.md)
 
-$\color{white}{\text{└─────────── }}$
+$\color{white}{\text{├─────────── }}$
 [<span style="color:white">Template</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/Template.md)
+
+$\color{white}{\text{└─────────── }}$
+[<span style="color:white">freyrregintel.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/freyrregintel.com.md)
 
 <!-- AUTO-TREE-END -->

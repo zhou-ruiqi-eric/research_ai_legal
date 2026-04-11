@@ -12,61 +12,61 @@ The goal of this project is to provide a clear overview of all major categories 
 It is a **curated visual knowledge map** designed to organize the AI industry, legal-tech research, and people.
 
 **Color Legend & Structure (3 Types of Folders):**
-- $${\color{violet}\text{👤 Individual}}$$ → Real people names & profiles  
-- $${\color{green}\text{📚 KnowledgeBase}}$$ → Concepts, standards, certificates, frameworks (used as [[wiki links]])  
-- $${\color{teal}\text{🤖 AI Industry}}$$:
+- $${\color{#bb86fc}\text{👤 Individual}}$$ → Real people names & profiles  
+- $${\color{#2ecc71}\text{📚 KnowledgeBase}}$$ → Concepts, standards, certificates, frameworks (used as [[wiki links]])  
+- $${\color{#00d4aa}\text{🤖 AI Industry}}$$:
   - Top level (teal): Major domains (AI-Legal, AI-Medicine…)  
   - Second level (orange): Sub-segments (GRC, RegTech…)  
   - Third level (blue): Specific companies or websites
 
 .
-${\color{white}\text{├── }}$
-${\color{teal}\text{AI-Legal}}$
+${\color{#e0e0e0}\text{├───────     }}$
+${\color{#00d4aa}\text{AI-Legal}}$
 
-${\color{white}\text{│   ├── }}$
-${\color{orange}\text{GRC}}$
+${\color{#e0e0e0}\text{│   ├──────── ─────     }}$
+${\color{#ff9500}\text{GRC}}$
 
-${\color{white}\text{│   │   └── }}$
-${\color{orange}\text{scytale.ai}}$
+${\color{#e0e0e0}\text{│   │   └──────── ─────     }}$
+${\color{#ff9500}\text{scytale.ai}}$
 
-${\color{white}\text{│   ├── }}$
-${\color{orange}\text{RegTech}}$
+${\color{#e0e0e0}\text{│   ├──────── ─────     }}$
+${\color{#ff9500}\text{RegTech}}$
 
-${\color{white}\text{│   │   └── }}$
-${\color{orange}\text{compliance.ai}}$
+${\color{#e0e0e0}\text{│   │   └──────── ─────     }}$
+${\color{#ff9500}\text{compliance.ai}}$
 
-${\color{white}\text{│   └── }}$
-${\color{orange}\text{Secureframe}}$
+${\color{#e0e0e0}\text{│   └──────── ─────     }}$
+${\color{#ff9500}\text{Secureframe}}$
 
-${\color{white}\text{├── }}$
-${\color{green}\text{KnowledgeBase}}$
+${\color{#e0e0e0}\text{├───────     }}$
+${\color{#2ecc71}\text{KnowledgeBase}}$
 
-${\color{white}\text{│   ├── }}$
-${\color{orange}\text{GDPR}}$
+${\color{#e0e0e0}\text{│   ├──────── ─────     }}$
+${\color{#ff9500}\text{GDPR}}$
 
-${\color{white}\text{│   ├── }}$
-${\color{orange}\text{HIPAA}}$
+${\color{#e0e0e0}\text{│   ├──────── ─────     }}$
+${\color{#ff9500}\text{HIPAA}}$
 
-${\color{white}\text{│   ├── }}$
-${\color{orange}\text{ISO 27001}}$
+${\color{#e0e0e0}\text{│   ├──────── ─────     }}$
+${\color{#ff9500}\text{ISO 27001}}$
 
-${\color{white}\text{│   ├── }}$
-${\color{orange}\text{ISO 42001}}$
+${\color{#e0e0e0}\text{│   ├──────── ─────     }}$
+${\color{#ff9500}\text{ISO 42001}}$
 
-${\color{white}\text{│   ├── }}$
-${\color{orange}\text{PCI DSS}}$
+${\color{#e0e0e0}\text{│   ├──────── ─────     }}$
+${\color{#ff9500}\text{PCI DSS}}$
 
-${\color{white}\text{│   ├── }}$
-${\color{orange}\text{SOC 1}}$
+${\color{#e0e0e0}\text{│   ├──────── ─────     }}$
+${\color{#ff9500}\text{SOC 1}}$
 
-${\color{white}\text{│   ├── }}$
-${\color{orange}\text{SOC 2}}$
+${\color{#e0e0e0}\text{│   ├──────── ─────     }}$
+${\color{#ff9500}\text{SOC 2}}$
 
-${\color{white}\text{│   └── }}$
-${\color{orange}\text{SOX ITGC}}$
+${\color{#e0e0e0}\text{│   └──────── ─────     }}$
+${\color{#ff9500}\text{SOX ITGC}}$
 
-${\color{white}\text{└── }}$
-${\color{orange}\text{DISCLAIMER}}$
+${\color{#e0e0e0}\text{└───────     }}$
+${\color{#ff9500}\text{DISCLAIMER}}$
 
 <!-- AUTO-TREE-END -->
 

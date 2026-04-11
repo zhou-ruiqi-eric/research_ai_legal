@@ -35,10 +35,10 @@ def color_name(name: str, prefix: str) -> str:
 
 # Make tree horizontally MUCH wider (your requested style)
 def widen_prefix(prefix: str) -> str:
-    prefix = prefix.replace("├── ", "├───────────────── ")
-    prefix = prefix.replace("└── ", "└───────────────── ")
-    prefix = prefix.replace("│   ", "│                  ")
-    prefix = prefix.replace("    ", "                   ")   # deeper levels
+    prefix = prefix.replace("├── ", "├─────────── ")
+    prefix = prefix.replace("└── ", "└─────────── ")
+    prefix = prefix.replace("│   ", "│\qquad\qquad\qquad\qquad\qquad")
+    prefix = prefix.replace("    ", "\qquad\qquad\qquad\qquad")   # deeper levels
     return prefix
 
 # Process every tree line → white symbols + colored name + empty line

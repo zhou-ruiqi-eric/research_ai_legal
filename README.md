@@ -12,32 +12,32 @@ The goal of this project is to provide a clear overview of all major categories 
 It is a **curated visual knowledge map** designed to organize the AI industry, legal-tech research, and people.
 
 **Color Legend & Structure (3 Types of Folders):**
-- $${\color{violet}{👤 Individual}}$$ → Real people names & profiles
-- $${\color{green}{📚 Knowledge_Base}}$$ → Concepts, standards, certificates, frameworks (used as [[wiki links]])
-- $${\color{teal}{🤖 AI Industry}}$$:
-  - Top level (teal): Major domains (AI-Legal, AI-Medicine…)
-  - Second level (orange): Sub-segments (GRC, RegTech…)
+- <span style="color: #9b59b6;">👤 Individual</span> → Real people names & profiles  
+- <span style="color: #2ecc71;">📚 Knowledge_Base</span> → Concepts, standards, certificates, frameworks (used as [[wiki links]])  
+- <span style="color: #1abc9c;">🤖 AI Industry</span>:
+  - Top level (teal): Major domains (AI-Legal, AI-Medicine…)  
+  - Second level (orange): Sub-segments (GRC, RegTech…)  
   - Third level (blue): Specific companies or websites
 
----
-
+<pre><code>
 .
-├── $${\color{teal}{AI-Legal}}$$
-│   ├── $${\color{orange}{GRC}}$$
-│   │   └── $${\color{orange}{scytale.ai}}$$
-│   ├── $${\color{orange}{RegTech}}$$
-│   │   └── $${\color{orange}{compliance.ai}}$$
-│   └── $${\color{orange}{Secureframe}}$$
-├── $${\color{green}{Knowledge_Base}}$$
-│   ├── $${\color{orange}{GDPR}}$$
-│   ├── $${\color{orange}{HIPAA}}$$
-│   ├── $${\color{orange}{ISO 27001}}$$
-│   ├── $${\color{orange}{ISO 42001}}$$
-│   ├── $${\color{orange}{PCI DSS}}$$
-│   ├── $${\color{orange}{SOC 1}}$$
-│   ├── $${\color{orange}{SOC 2}}$$
-│   └── $${\color{orange}{SOX ITGC}}$$
-└── $${\color{orange}{DISCLAIMER}}$$
+├── <span style="color: #1abc9c;">AI-Legal</span>
+│   ├── <span style="color: #f39c12;">GRC</span>
+│   │   └── <span style="color: #f39c12;">scytale.ai</span>
+│   ├── <span style="color: #f39c12;">RegTech</span>
+│   │   └── <span style="color: #f39c12;">compliance.ai</span>
+│   └── <span style="color: #f39c12;">Secureframe</span>
+├── <span style="color: #2ecc71;">Knowledge_Base</span>
+│   ├── <span style="color: #f39c12;">GDPR</span>
+│   ├── <span style="color: #f39c12;">HIPAA</span>
+│   ├── <span style="color: #f39c12;">ISO 27001</span>
+│   ├── <span style="color: #f39c12;">ISO 42001</span>
+│   ├── <span style="color: #f39c12;">PCI DSS</span>
+│   ├── <span style="color: #f39c12;">SOC 1</span>
+│   ├── <span style="color: #f39c12;">SOC 2</span>
+│   └── <span style="color: #f39c12;">SOX ITGC</span>
+└── <span style="color: #f39c12;">DISCLAIMER</span>
+</code></pre>
 <!-- AUTO-TREE-END -->
 
 

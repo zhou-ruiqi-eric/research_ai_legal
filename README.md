@@ -26,7 +26,7 @@ It is a **curated visual knowledge map** designed to organize the AI industry, l
 │   ├── $${\color{orange}\text{RegTech}}$$
 │   │   └── $${\color{orange}\text{compliance.ai}}$$
 │   └── $${\color{orange}\text{Secureframe}}$$
-├── $${\color{green}\text{Knowledge_Base}}$$
+├── $${\color{orange}\text{KnowledgeBase}}$$
 │   ├── $${\color{orange}\text{GDPR}}$$
 │   ├── $${\color{orange}\text{HIPAA}}$$
 │   ├── $${\color{orange}\text{ISO 27001}}$$

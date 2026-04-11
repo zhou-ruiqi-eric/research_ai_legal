@@ -1,0 +1,24 @@
+GDPR forces companies to respect people’s data rights and be accountable — or pay huge fines.
+
+- **What it is**: EU law (2018) protecting personal data privacy of EU residents.
+- **Applies to**: Any organization worldwide that processes personal data of EU people (selling to them, tracking them, etc.).
+- **Core 7 Principles**:
+  - Lawful, fair, transparent
+  - Purpose limitation
+  - Data minimization
+  - Accuracy
+  - Storage limitation
+  - Integrity & confidentiality
+  - Accountability
+- **Data Subject Rights** (8 main):
+  - Access, rectification, erasure (“right to be forgotten”), restriction, portability, objection, no automated decisions, withdraw consent.
+- **Key Obligations**:
+  - Lawful basis for every processing
+  - Record of processing activities
+  - Breach notification to authority within 72 hrs
+  - Data Protection Impact Assessment (DPIA) for high-risk
+  - Appoint DPO in some cases
+  - Strict rules on international data transfers
+- **Fines**: Up to €20 million or 4% of global annual turnover (whichever higher).
+- **Enforcement**: National Data Protection Authorities + courts.
+- **Status**: Still the strictest & most influential data law globally. No major replacement as of 2026.

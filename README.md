@@ -20,6 +20,7 @@ It is a **curated visual knowledge map** designed to organize the AI industry, l
   - Third level (blue): Specific companies or websites
 
 .
+
 ${\color{white}\text{├─────────── }}$
 ${\color{teal}\text{AI-Legal}}$
 

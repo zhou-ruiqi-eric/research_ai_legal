@@ -1,4 +1,4 @@
-name: Auto Update Folder Tree (Only Last Modified Date)
+name: Auto Update Folder Tree
 
 on:
   push:
@@ -9,7 +9,6 @@ jobs:
   update-tree:
     runs-on: ubuntu-latest
     
-    # ←←← 新增这一段，赋予 push 权限
     permissions:
       contents: write
 
@@ -23,12 +22,10 @@ jobs:
       - name: Install tree command
         run: sudo apt-get update && sudo apt-get install -y tree
 
-      - name: Generate tree（只显示最后修改日期 YYYY-MM-DD）
+      - name: Generate tree (clean structure)
         run: |
           tree --dirsfirst \
                -I '.obsidian|.github|attachments|node_modules|.git|*.log|*.tmp' \
-               -D \
-               --timefmt '%Y-%m-%d' \
                -L 6 > TREE.md
 
       - name: Replace tree in README.md
@@ -37,6 +34,6 @@ jobs:
       - name: Commit & Push updated README
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}     # ←←← 新增这一行
-          commit_message: "chore: auto update folder tree (last modified date) 🌳"
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit_message: "chore: auto update folder tree 🌳"
           file_pattern: README.md

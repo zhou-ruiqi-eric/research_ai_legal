@@ -8,28 +8,28 @@ with open("README.md", "r", encoding="utf-8") as f:
 with open("TREE.md", "r", encoding="utf-8") as f:
     tree_lines = f.read().strip().splitlines()
 
-# Color function — using your desired format $${\color{color}\text{name}}$$
+# Color function — INLINE KaTeX for tree (keeps structure connected)
 def color_name(name: str, prefix: str) -> str:
     name = name.strip()
     if not name:
         return name
 
     if "KnowledgeBase" in name:
-        return "$${\\color{green}\\text{" + name + "}}$$"
+        return "${\\color{green}\\text{" + name + "}}$"
     
     if "Individual" in name:
-        return "$${\\color{violet}\\text{" + name + "}}$$"
+        return "${\\color{violet}\\text{" + name + "}}$"
     
     if name.startswith("AI-"):
-        return "$${\\color{teal}\\text{" + name + "}}$$"
+        return "${\\color{teal}\\text{" + name + "}}$"
     
     # Sub-segments (2nd level: GRC, RegTech...)
     if any(sym in prefix for sym in ["├──", "└──", "│   ", "│   "]) and len(prefix.strip()) > 0:
-        return "$${\\color{orange}\\text{" + name + "}}$$"
+        return "${\\color{orange}\\text{" + name + "}}$"
     
     # Companies / 3rd level
     if any(sym in prefix for sym in ["│   │", "│   │"]) or len(prefix) > 8:
-        return "$${\\color{blue}\\text{" + name + "}}$$"
+        return "${\\color{blue}\\text{" + name + "}}$"
     
     return name
 
@@ -49,7 +49,7 @@ for line in tree_lines:
 
 tree_colored = "\n".join(processed_tree)
 
-# Final block with your exact format
+# Final block (no extra blank lines between tree lines)
 new_block = """### 🌳 AI & Legal Knowledge Map
 
 **This is not** the literal output of the `tree` command.  
@@ -80,4 +80,4 @@ content = re.sub(
 with open("README.md", "w", encoding="utf-8") as f:
     f.write(content)
 
-print("✅ Tree updated to $${\\color{color}\\text{name}}$$ format")
+print("✅ Tree updated with inline KaTeX (connected structure) + KnowledgeBase")

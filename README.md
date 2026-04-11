@@ -9,18 +9,21 @@ The goal of this project is to provide a clear overview of all major categories 
 ```bash
 [2026-04-11]  .
 ├── [2026-04-11]  AI-Legal
-│   ├── [2026-04-11]  GRC_scytale.ai.md
-│   ├── [2026-04-11]  RegTech_compliance.ai.md
+│   ├── [2026-04-11]  GRC
+│   │   └── [2026-04-11]  scytale.ai.md
+│   ├── [2026-04-11]  RegTech
+│   │   └── [2026-04-11]  compliance.ai.md
 │   └── [2026-04-11]  Secureframe.md
-├── [2026-04-11]  Template
-│   └── [2026-04-11]  Template.md
+├── [2026-04-11]  Knowledge_Base
+│   ├── [2026-04-11]  GDPR.md
+│   ├── [2026-04-11]  ISO 27001.md
+│   └── [2026-04-11]  SOC 2.md
 ├── [2026-04-11]  DISCLAIMER.md
 ├── [2026-04-11]  License
 ├── [2026-04-11]  README.md
-├── [2026-04-11]  TODO List.md
 └── [2026-04-11]  TREE.md
 
-3 directories, 9 files
+5 directories, 10 files
 ```
 <!-- AUTO-TREE-END -->
 

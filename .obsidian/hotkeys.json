@@ -61,5 +61,14 @@
       ],
       "key": "3"
     }
+  ],
+  "automatic-linker:format-vault": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "S"
+    }
   ]
 }

@@ -72,6 +72,8 @@ for line in tree_lines:
             first_item = False
     else:
         processed_tree.append(line)
+        if line.strip() == ".":
+            processed_tree.append("")
 
 tree_colored = "\n".join(processed_tree)
 

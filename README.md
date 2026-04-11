@@ -23,46 +23,46 @@ It is a **curated visual knowledge map** designed to organize the AI industry, l
 ${\color{white}\text{├─────────── }}$
 ${\color{teal}\text{AI-Legal}}$
 
-${\color{white}\text{│\qquad\qquad\qquad\qquad\qquad├─────────── }}$
+${\color{white}\text{│\qquad\qquad\qquad\qquad├─────────── }}$
 ${\color{orange}\text{GRC}}$
 
-${\color{white}\text{│\qquad\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad\qquad└─────────── }}$
+${\color{white}\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad└─────────── }}$
 ${\color{orange}\text{scytale.ai}}$
 
-${\color{white}\text{│\qquad\qquad\qquad\qquad\qquad├─────────── }}$
+${\color{white}\text{│\qquad\qquad\qquad\qquad├─────────── }}$
 ${\color{orange}\text{RegTech}}$
 
-${\color{white}\text{│\qquad\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad\qquad└─────────── }}$
+${\color{white}\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad└─────────── }}$
 ${\color{orange}\text{compliance.ai}}$
 
-${\color{white}\text{│\qquad\qquad\qquad\qquad\qquad└─────────── }}$
+${\color{white}\text{│\qquad\qquad\qquad\qquad└─────────── }}$
 ${\color{orange}\text{Secureframe}}$
 
 ${\color{white}\text{├─────────── }}$
 ${\color{green}\text{KnowledgeBase}}$
 
-${\color{white}\text{│\qquad\qquad\qquad\qquad\qquad├─────────── }}$
+${\color{white}\text{│\qquad\qquad\qquad\qquad├─────────── }}$
 ${\color{orange}\text{GDPR}}$
 
-${\color{white}\text{│\qquad\qquad\qquad\qquad\qquad├─────────── }}$
+${\color{white}\text{│\qquad\qquad\qquad\qquad├─────────── }}$
 ${\color{orange}\text{HIPAA}}$
 
-${\color{white}\text{│\qquad\qquad\qquad\qquad\qquad├─────────── }}$
+${\color{white}\text{│\qquad\qquad\qquad\qquad├─────────── }}$
 ${\color{orange}\text{ISO 27001}}$
 
-${\color{white}\text{│\qquad\qquad\qquad\qquad\qquad├─────────── }}$
+${\color{white}\text{│\qquad\qquad\qquad\qquad├─────────── }}$
 ${\color{orange}\text{ISO 42001}}$
 
-${\color{white}\text{│\qquad\qquad\qquad\qquad\qquad├─────────── }}$
+${\color{white}\text{│\qquad\qquad\qquad\qquad├─────────── }}$
 ${\color{orange}\text{PCI DSS}}$
 
-${\color{white}\text{│\qquad\qquad\qquad\qquad\qquad├─────────── }}$
+${\color{white}\text{│\qquad\qquad\qquad\qquad├─────────── }}$
 ${\color{orange}\text{SOC 1}}$
 
-${\color{white}\text{│\qquad\qquad\qquad\qquad\qquad├─────────── }}$
+${\color{white}\text{│\qquad\qquad\qquad\qquad├─────────── }}$
 ${\color{orange}\text{SOC 2}}$
 
-${\color{white}\text{│\qquad\qquad\qquad\qquad\qquad└─────────── }}$
+${\color{white}\text{│\qquad\qquad\qquad\qquad└─────────── }}$
 ${\color{orange}\text{SOX ITGC}}$
 
 ${\color{white}\text{└─────────── }}$

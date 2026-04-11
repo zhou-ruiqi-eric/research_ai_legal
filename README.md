@@ -12,19 +12,28 @@ $\color{white}{\text{├─────────── }}$
 $\color{white}{\text{AI-Legal}}$
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────── }}$
-$\color{white}{\text{GRC}}$
+$\color{white}{\text{CMP(Consent Management Platform)}}$
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad└─────────── }}$
-[<span style="color:white">scytale.ai</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/GRC/scytale.ai.md)
+[<span style="color:white">termly.io</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/CMP(Consent Management Platform)/termly.io.md)
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────── }}$
-$\color{white}{\text{RegTech}}$
+$\color{white}{\text{GRC(Governance, Risk, and Compliance)}}$
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
+[<span style="color:white">centraleyes.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/GRC(Governance, Risk, and Compliance)/centraleyes.com.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
+[<span style="color:white">scytale.ai</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/GRC(Governance, Risk, and Compliance)/scytale.ai.md)
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad└─────────── }}$
-[<span style="color:white">compliance.ai</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/RegTech/compliance.ai.md)
+[<span style="color:white">secureframe.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/GRC(Governance, Risk, and Compliance)/secureframe.com.md)
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad└─────────── }}$
-[<span style="color:white">Secureframe</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/Secureframe.md)
+$\color{white}{\text{RegTech}}$
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad└─────────── }}$
+[<span style="color:white">compliance.ai</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/RegTech/compliance.ai.md)
 
 $\color{white}{\text{├─────────── }}$
 $\color{white}{\text{Individual}}$
@@ -58,5 +67,8 @@ $\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────�
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad└─────────── }}$
 [<span style="color:white">SOX ITGC</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/KnowledgeBase/SOX%20ITGC.md)
+
+$\color{white}{\text{└─────────── }}$
+[<span style="color:white">Template</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/Template.md)
 
 <!-- AUTO-TREE-END -->

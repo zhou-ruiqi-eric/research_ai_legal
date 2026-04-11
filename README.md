@@ -20,53 +20,53 @@ It is a **curated visual knowledge map** designed to organize the AI industry, l
   - Third level (blue): Specific companies or websites
 
 .
-${\color{white}\text{├── }}$
+${\color{white}\text{├───────────────── }}$
 ${\color{teal}\text{AI-Legal}}$
 
-${\color{white}\text{│   ├── }}$
-GRC
+${\color{white}\text{│                                                                              ├───────────────── }}$
+${\color{orange}\text{GRC}}$
 
-${\color{white}\text{│   │   └── }}$
-${\color{blue}\text{scytale.ai}}$
+${\color{white}\text{│                                                                              │                                                                              └───────────────── }}$
+${\color{orange}\text{scytale.ai}}$
 
-${\color{white}\text{│   ├── }}$
-RegTech
+${\color{white}\text{│                                                                              ├───────────────── }}$
+${\color{orange}\text{RegTech}}$
 
-${\color{white}\text{│   │   └── }}$
-${\color{blue}\text{compliance.ai}}$
+${\color{white}\text{│                                                                              │                                                                              └───────────────── }}$
+${\color{orange}\text{compliance.ai}}$
 
-${\color{white}\text{│   └── }}$
-Secureframe
+${\color{white}\text{│                                                                              └───────────────── }}$
+${\color{orange}\text{Secureframe}}$
 
-${\color{white}\text{├── }}$
+${\color{white}\text{├───────────────── }}$
 ${\color{green}\text{KnowledgeBase}}$
 
-${\color{white}\text{│   ├── }}$
-GDPR
+${\color{white}\text{│                                                                              ├───────────────── }}$
+${\color{orange}\text{GDPR}}$
 
-${\color{white}\text{│   ├── }}$
-HIPAA
+${\color{white}\text{│                                                                              ├───────────────── }}$
+${\color{orange}\text{HIPAA}}$
 
-${\color{white}\text{│   ├── }}$
-ISO 27001
+${\color{white}\text{│                                                                              ├───────────────── }}$
+${\color{orange}\text{ISO 27001}}$
 
-${\color{white}\text{│   ├── }}$
-ISO 42001
+${\color{white}\text{│                                                                              ├───────────────── }}$
+${\color{orange}\text{ISO 42001}}$
 
-${\color{white}\text{│   ├── }}$
-PCI DSS
+${\color{white}\text{│                                                                              ├───────────────── }}$
+${\color{orange}\text{PCI DSS}}$
 
-${\color{white}\text{│   ├── }}$
-SOC 1
+${\color{white}\text{│                                                                              ├───────────────── }}$
+${\color{orange}\text{SOC 1}}$
 
-${\color{white}\text{│   ├── }}$
-SOC 2
+${\color{white}\text{│                                                                              ├───────────────── }}$
+${\color{orange}\text{SOC 2}}$
 
-${\color{white}\text{│   └── }}$
-SOX ITGC
+${\color{white}\text{│                                                                              └───────────────── }}$
+${\color{orange}\text{SOX ITGC}}$
 
-${\color{white}\text{└── }}$
-DISCLAIMER
+${\color{white}\text{└───────────────── }}$
+${\color{orange}\text{DISCLAIMER}}$
 
 <!-- AUTO-TREE-END -->
 

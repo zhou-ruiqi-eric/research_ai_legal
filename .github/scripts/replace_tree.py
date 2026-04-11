@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import re
+from urllib.parse import quote
 
 # Configuration
 REPO_URL_BASE = "https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/"
@@ -60,8 +61,11 @@ for line in tree_lines:
         
         # Build name part
         if is_leaf:
-            # Leaf → clickable GitHub link to the .md file
-            github_url = f"{REPO_URL_BASE}{relative_path}{name_full}"
+            # IMPORTANT FIX: URL-encode the filename (spaces → %20)
+            encoded_filename = quote(name_full)
+            github_url = f"{REPO_URL_BASE}{relative_path}{encoded_filename}"
+            
+            # Leaf → clickable GitHub link (white text stays white)
             name_display = f'[<span style="color:white">{display_name}</span>]({github_url})'
         else:
             # Folder/category → keep your original white LaTeX style
@@ -100,4 +104,4 @@ content = re.sub(
 with open("README.md", "w", encoding="utf-8") as f:
     f.write(content)
 
-print("✅ Tree fully updated — every leaf (scytale.ai, compliance.ai, eric, GDPR, etc.) is now a clickable GitHub link!")
+print("✅ Tree fully updated — spaces in filenames (ISO 27001.md, PCI DSS.md, etc.) are now properly encoded as %20!")

@@ -7,26 +7,26 @@ The goal of this project is to provide a clear overview of all major categories 
 ### Auto-Generated Tree Structure
 <!-- AUTO-TREE-START -->
 ```bash
-[2026-04-11]  .
-├── [2026-04-11]  AI-Legal
-│   ├── [2026-04-11]  GRC
-│   │   └── [2026-04-11]  scytale.ai.md
-│   ├── [2026-04-11]  RegTech
-│   │   └── [2026-04-11]  compliance.ai.md
-│   └── [2026-04-11]  Secureframe.md
-├── [2026-04-11]  Knowledge_Base
-│   ├── [2026-04-11]  GDPR.md
-│   ├── [2026-04-11]  HIPAA.md
-│   ├── [2026-04-11]  ISO 27001.md
-│   ├── [2026-04-11]  ISO 42001.md
-│   ├── [2026-04-11]  PCI DSS.md
-│   ├── [2026-04-11]  SOC 1.md
-│   ├── [2026-04-11]  SOC 2.md
-│   └── [2026-04-11]  SOX ITGC.md
-├── [2026-04-11]  DISCLAIMER.md
-├── [2026-04-11]  License
-├── [2026-04-11]  README.md
-└── [2026-04-11]  TREE.md
+.
+├── AI-Legal
+│   ├── GRC
+│   │   └── scytale.ai.md
+│   ├── RegTech
+│   │   └── compliance.ai.md
+│   └── Secureframe.md
+├── Knowledge_Base
+│   ├── GDPR.md
+│   ├── HIPAA.md
+│   ├── ISO 27001.md
+│   ├── ISO 42001.md
+│   ├── PCI DSS.md
+│   ├── SOC 1.md
+│   ├── SOC 2.md
+│   └── SOX ITGC.md
+├── DISCLAIMER.md
+├── License
+├── README.md
+└── TREE.md
 
 5 directories, 15 files
 ```

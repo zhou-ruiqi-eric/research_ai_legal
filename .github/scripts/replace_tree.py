@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 import re
 
+# Configuration
+REPO_URL_BASE = "https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/"
+
 # Read files
 with open("README.md", "r", encoding="utf-8") as f:
     content = f.read()
@@ -8,20 +11,23 @@ with open("README.md", "r", encoding="utf-8") as f:
 with open("TREE.md", "r", encoding="utf-8") as f:
     tree_lines = f.read().strip().splitlines()
 
-# Widen tree branches (your modified style + extra horizontal length)
+# Widen tree branches (exactly your original style)
 def widen_prefix(prefix: str) -> str:
     prefix = prefix.replace("├── ", "├─────────── ")
     prefix = prefix.replace("└── ", "└─────────── ")
-    prefix = prefix.replace("│   ", "│\qquad\qquad\qquad\qquad")
-    prefix = prefix.replace("    ", "\qquad\qquad\qquad\qquad")   # deeper levels
+    prefix = prefix.replace("│   ", "│\\qquad\\qquad\\qquad\\qquad")
+    prefix = prefix.replace("    ", "\\qquad\\qquad\\qquad\\qquad")   # deeper levels
     return prefix
 
-# Process tree lines
+# Process tree lines with path tracking + leaf detection
 processed_tree = []
+path_stack = []
 first_item = True
 
 for line in tree_lines:
-    line = re.sub(r'\.md$', '', line)
+    if not line.strip():
+        processed_tree.append("")
+        continue
     
     # Completely skip DISCLAIMER
     if "DISCLAIMER" in line.upper():
@@ -30,29 +36,56 @@ for line in tree_lines:
     match = re.match(r'([├└│─\s]+)(.+)', line)
     if match:
         prefix = match.group(1)
-        name   = match.group(2).strip()
+        name_full = match.group(2).strip()
         
+        # Detect leaf (original line ends with .md)
+        is_leaf = name_full.endswith('.md')
+        display_name = re.sub(r'\.md$', '', name_full)
+        
+        # Calculate depth (standard tree output = 4 chars per level)
+        depth = len(prefix) // 4
+        
+        # Maintain folder path stack (only folders are pushed)
+        while len(path_stack) >= depth:
+            path_stack.pop()
+        
+        # Build relative folder path for this item
+        relative_path = "/".join(path_stack)
+        if relative_path:
+            relative_path += "/"
+        
+        # Widen prefix for visual spacing (your original look)
         wide_prefix = widen_prefix(prefix)
+        white_line = f"$\\color{{white}}{{\\text{{{wide_prefix}}}}}$"
         
-        white_line = "${\\color{white}\\text{" + wide_prefix + "}}$"
-        white_name = "${\\color{white}\\text{" + name + "}}$"
-
+        # Build name part
+        if is_leaf:
+            # Leaf → clickable GitHub link to the .md file
+            github_url = f"{REPO_URL_BASE}{relative_path}{name_full}"
+            name_display = f'[<span style="color:white">{display_name}</span>]({github_url})'
+        else:
+            # Folder/category → keep your original white LaTeX style
+            name_display = f"$\\color{{white}}{{\\text{{{display_name}}}}}$"
+            # Push folder to stack for its children
+            path_stack.append(display_name)
+        
         processed_tree.append(white_line)
-        processed_tree.append(white_name)
-        processed_tree.append("")          # empty line between each pair
+        processed_tree.append(name_display)
+        processed_tree.append("")  # empty line between each pair
         
-        # Extra blank line AFTER the root "." 
-        if first_item and name == ".":
+        # Extra blank line AFTER the root "."
+        if first_item and display_name == ".":
             processed_tree.append("")
             first_item = False
     else:
+        # Fallback for any non-tree lines
         processed_tree.append(line)
         if line.strip() == ".":
             processed_tree.append("")
 
 tree_output = "\n".join(processed_tree)
 
-# Safe replacement
+# Safe replacement in README.md
 def replace_tree(match):
     return "<!-- AUTO-TREE-START -->\n" + tree_output + "\n<!-- AUTO-TREE-END -->"
 
@@ -67,4 +100,4 @@ content = re.sub(
 with open("README.md", "w", encoding="utf-8") as f:
     f.write(content)
 
-print("✅ Tree fully updated — all tree labels use white (no category color rules)")
+print("✅ Tree fully updated — every leaf (scytale.ai, compliance.ai, eric, GDPR, etc.) is now a clickable GitHub link!")

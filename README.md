@@ -73,6 +73,3 @@ ${\color{white}\text{│\qquad\qquad\qquad\qquad└─────────�
 ${\color{#67E8F9}\text{SOX ITGC}}$
 
 <!-- AUTO-TREE-END -->
-
-
-**Note on AI assistance:** Some summaries were drafted with AI assistance and then reviewed, verified, and edited by the author for accuracy.

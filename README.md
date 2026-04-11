@@ -40,6 +40,12 @@ ${\color{white}\text{│\qquad\qquad\qquad\qquad└─────────�
 ${\color{orange}\text{Secureframe}}$
 
 ${\color{white}\text{├─────────── }}$
+${\color{violet}\text{Individual}}$
+
+${\color{white}\text{│\qquad\qquad\qquad\qquad└─────────── }}$
+${\color{orange}\text{eric}}$
+
+${\color{white}\text{├─────────── }}$
 ${\color{green}\text{KnowledgeBase}}$
 
 ${\color{white}\text{│\qquad\qquad\qquad\qquad├─────────── }}$

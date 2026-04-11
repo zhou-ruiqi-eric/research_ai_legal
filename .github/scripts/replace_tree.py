@@ -1,56 +1,45 @@
 #!/usr/bin/env python3
 import re
 
-# Read README.md and TREE.md
+# Read files
 with open("README.md", "r", encoding="utf-8") as f:
     content = f.read()
 
 with open("TREE.md", "r", encoding="utf-8") as f:
     tree_lines = f.read().strip().splitlines()
 
-# Color function — quadruple backslashes fix the regex escape issue
+# Color function
 def color_name(name: str, prefix: str) -> str:
     name = name.strip()
     if not name:
         return name
 
-    # Knowledge_Base → Green
     if "Knowledge_Base" in name:
-        return "$${\\\\color{green}{" + name + "}}$$"
-    
-    # Individual → Violet
+        return "$${\\color{green}{" + name + "}}$$"
     if "Individual" in name:
-        return "$${\\\\color{violet}{" + name + "}}$$"
-    
-    # AI Industry top-level → Teal
+        return "$${\\color{violet}{" + name + "}}$$"
     if name.startswith("AI-"):
-        return "$${\\\\color{teal}{" + name + "}}$$"
-    
-    # Sub-segments (GRC, RegTech...) → Orange
+        return "$${\\color{teal}{" + name + "}}$$"
     if any(sym in prefix for sym in ["├──", "└──", "│   ", "│   "]) and len(prefix.strip()) > 0:
-        return "$${\\\\color{orange}{" + name + "}}$$"
-    
-    # Companies / third level → Blue
-    if any(sym in prefix for sym in ["│   │", "│   │", "    "]) or len(prefix) > 8:
-        return "$${\\\\color{blue}{" + name + "}}$$"
-    
+        return "$${\\color{orange}{" + name + "}}$$"
+    if any(sym in prefix for sym in ["│   │", "│   │"]) or len(prefix) > 8:
+        return "$${\\color{blue}{" + name + "}}$$"
     return name
 
-# Process tree lines
+# Process tree
 processed_tree = []
 for line in tree_lines:
-    line = re.sub(r'\.md$', '', line)                    # remove .md
+    line = re.sub(r'\.md$', '', line)
     match = re.match(r'([├└│─\s]+)(.+)', line)
     if match:
         prefix = match.group(1)
         name = match.group(2).strip()
-        colored = color_name(name, prefix)
-        line = prefix + colored
+        line = prefix + color_name(name, prefix)
     processed_tree.append(line)
 
 tree_colored = "\n".join(processed_tree)
 
-# Explanation + legend (also uses quadruple backslashes)
+# Legend + explanation
 new_block = """### 🌳 AI & Legal Knowledge Map
 
 **This is not** the literal output of the `tree` command.  
@@ -68,10 +57,13 @@ It is a **curated visual knowledge map** designed to organize the AI industry, l
 
 """ + tree_colored
 
-# Replace the old block
+# ←←← THIS IS THE KEY FIX: use a FUNCTION as replacement (no escape issues)
+def replace_tree(match):
+    return "<!-- AUTO-TREE-START -->\n" + new_block + "\n<!-- AUTO-TREE-END -->"
+
 content = re.sub(
     r"<!-- AUTO-TREE-START -->.*?<!-- AUTO-TREE-END -->",
-    f"<!-- AUTO-TREE-START -->\n{new_block}\n<!-- AUTO-TREE-END -->",
+    replace_tree,
     content,
     flags=re.DOTALL
 )

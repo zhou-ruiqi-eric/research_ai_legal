@@ -8,30 +8,31 @@ with open("README.md", "r", encoding="utf-8") as f:
 with open("TREE.md", "r", encoding="utf-8") as f:
     tree_lines = f.read().strip().splitlines()
 
-# Color function — STRICTLY follows your legend rules (dark background friendly)
+# Color function — STRICTLY follows the picture legend (exact hex codes)
 def color_name(name: str, prefix: str) -> str:
     name = name.strip()
     if not name:
         return name
 
-    # 1. KnowledgeBase (and all its children) → Green
-    if "KnowledgeBase" in name:
-        return "${\\color{green}\\text{" + name + "}}$"
-    
-    # 2. Individual → Violet
+    # 1. Individual (real people, names & profiles) → Purple / Violet Main: #C084FC
     if "Individual" in name:
-        return "${\\color{violet}\\text{" + name + "}}$"
+        return "${\\color{#C084FC}\\text{" + name + "}}$"
     
-    # 3. AI Industry Top level → #00F5FF
-    if name.startswith("AI-"):
+    # 2. KnowledgeBase (concepts, standards, frameworks like GDPR, ISO, etc.) → Green Main: #4ADE80
+    if "KnowledgeBase" in name:
+        return "${\\color{#4ADE80}\\text{" + name + "}}$"
+    
+    # 3. AI Industry (domains, sub-segments, companies)
+    # Top level / Main → Electric Cyan #00F5FF
+    if name.startswith("AI-") or name == "AI Industry":
         return "${\\color{#00F5FF}\\text{" + name + "}}$"
     
-    # 4. 3rd level (companies) → Blue
+    # Third level (companies) → #A5F3FC
     if any(sym in prefix for sym in ["│   │", "│   │"]) or len(prefix) > 12:
-        return "${\\color{blue}\\text{" + name + "}}$"
+        return "${\\color{#A5F3FC}\\text{" + name + "}}$"
     
-    # 5. 2nd level (sub-segments like GRC, RegTech) → Orange
-    return "${\\color{orange}\\text{" + name + "}}$"
+    # Second level (sub-segments) → #67E8F9
+    return "${\\color{#67E8F9}\\text{" + name + "}}$"
 
 # Widen tree branches (your modified style + extra horizontal length)
 def widen_prefix(prefix: str) -> str:
@@ -66,7 +67,7 @@ for line in tree_lines:
         processed_tree.append(colored_name)
         processed_tree.append("")          # empty line between each pair
         
-        # Extra blank line AFTER the root "." (your request #2)
+        # Extra blank line AFTER the root "." 
         if first_item and name == ".":
             processed_tree.append("")
             first_item = False
@@ -77,19 +78,19 @@ for line in tree_lines:
 
 tree_colored = "\n".join(processed_tree)
 
-# Final block (legend updated to match your exact wording)
+# Final block — legend updated to match the picture exactly
 new_block = """### 🌳 AI & Legal Knowledge Map
 
 **This is not** the literal output of the `tree` command.  
 It is a **curated visual knowledge map** designed to organize the AI industry, legal-tech research, and people.
 
 **Color Legend & Structure (3 Types of Folders):**
-- $${\\color{violet}\\text{👤 Individual}}$$ → Real people names & profiles  
-- $${\\color{green}\\text{📚 KnowledgeBase}}$$ → Concepts, standards, certificates, frameworks (used as [[wiki links]])  
-- $${\\color{#00F5FF}\\text{🤖 AI Industry}}$$:
-  - Top level (#00F5FF): Major domains (AI-Legal, AI-Medicine…)  
-  - Second level (orange): Sub-segments (GRC, RegTech…)  
-  - Third level (blue): Specific companies or websites
+- $${\\color{#C084FC}\\text{👤 Individual}}$$ → Real people names & profiles (Purple / Violet — Main: #C084FC)  
+- $${\\color{#4ADE80}\\text{📚 KnowledgeBase}}$$ → Concepts, standards, frameworks (GDPR, ISO, etc.) (Green — Main: #4ADE80)  
+- $${\\color{#00F5FF}\\text{🤖 AI Industry}}$$ (Electric Cyan as chosen):
+  - Top level / Main (#00F5FF): Major domains  
+  - Second level (#67E8F9): Sub-segments  
+  - Third level (#A5F3FC): Specific companies or websites
 
 """ + tree_colored
 
@@ -108,4 +109,4 @@ content = re.sub(
 with open("README.md", "w", encoding="utf-8") as f:
     f.write(content)
 
-print("✅ Tree fully updated — wider spacing, correct colors, extra line after dot, DISCLAIMER removed")
+print("✅ Tree fully updated — colors now exactly match the picture legend (#C084FC, #4ADE80, #00F5FF, #67E8F9, #A5F3FC)")

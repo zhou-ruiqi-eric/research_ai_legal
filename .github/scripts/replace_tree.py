@@ -8,49 +8,48 @@ with open("README.md", "r", encoding="utf-8") as f:
 with open("TREE.md", "r", encoding="utf-8") as f:
     tree_lines = f.read().strip().splitlines()
 
-# Color function — using your proven $${\color{...}{name}}$$ syntax
+# Color function — using string concatenation (no f-string issues)
 def color_name(name: str, prefix: str) -> str:
     name = name.strip()
     if not name:
         return name
 
     if "Knowledge_Base" in name:
-        return f"$${{\\color{{green}}{{{name}}}}}}$$"
+        return "$${\\color{green}{" + name + "}}$$"
     
     if "Individual" in name:
-        return f"$${{\\color{{violet}}{{{name}}}}}}$$"
+        return "$${\\color{violet}{" + name + "}}$$"
     
     if name.startswith("AI-"):
-        return f"$${{\\color{{teal}}{{{name}}}}}}$$"
+        return "$${\\color{teal}{" + name + "}}$$"
     
-    # Sub-segments (2nd level)
+    # Sub-segments (GRC, RegTech...)
     if any(sym in prefix for sym in ["├──", "└──", "│   ", "│   "]) and len(prefix.strip()) > 0:
-        return f"$${{\\color{{orange}}{{{name}}}}}}$$"
+        return "$${\\color{orange}{" + name + "}}$$"
     
-    # Companies / 3rd level
+    # Companies / third level
     if any(sym in prefix for sym in ["│   │", "│   │"]) or len(prefix) > 8:
-        return f"$${{\\color{{blue}}{{{name}}}}}}$$"
+        return "$${\\color{blue}{" + name + "}}$$"
     
     return name
 
-# Process tree lines
+# Process every tree line
 processed_tree = []
 for line in tree_lines:
     # Remove .md extension
     line = re.sub(r'\.md$', '', line)
     
-    # Split prefix + name
+    # Split tree prefix + name
     match = re.match(r'([├└│─\s]+)(.+)', line)
     if match:
         prefix = match.group(1)
         name = match.group(2).strip()
-        colored = color_name(name, prefix)
-        line = prefix + colored
+        line = prefix + color_name(name, prefix)
     processed_tree.append(line)
 
 tree_colored = "\n".join(processed_tree)
 
-# New block with your tested KaTeX syntax
+# Final block (using your tested KaTeX syntax)
 new_block = """### 🌳 AI & Legal Knowledge Map
 
 **This is not** the literal output of the `tree` command.  
@@ -66,7 +65,7 @@ It is a **curated visual knowledge map** designed to organize the AI industry, l
 
 """ + tree_colored
 
-# Safe replacement (no regex escape issues)
+# Safe replacement
 def replace_tree(match):
     return "<!-- AUTO-TREE-START -->\n" + new_block + "\n<!-- AUTO-TREE-END -->"
 
@@ -81,4 +80,4 @@ content = re.sub(
 with open("README.md", "w", encoding="utf-8") as f:
     f.write(content)
 
-print("✅ Redesigned KaTeX-colored tree map updated in README.md")
+print("✅ KaTeX colored tree map successfully updated in README.md")

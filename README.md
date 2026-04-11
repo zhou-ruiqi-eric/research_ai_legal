@@ -16,14 +16,19 @@ The goal of this project is to provide a clear overview of all major categories 
 │   └── [2026-04-11]  Secureframe.md
 ├── [2026-04-11]  Knowledge_Base
 │   ├── [2026-04-11]  GDPR.md
+│   ├── [2026-04-11]  HIPAA.md
 │   ├── [2026-04-11]  ISO 27001.md
-│   └── [2026-04-11]  SOC 2.md
+│   ├── [2026-04-11]  ISO 42001.md
+│   ├── [2026-04-11]  PCI DSS.md
+│   ├── [2026-04-11]  SOC 1.md
+│   ├── [2026-04-11]  SOC 2.md
+│   └── [2026-04-11]  SOX ITGC.md
 ├── [2026-04-11]  DISCLAIMER.md
 ├── [2026-04-11]  License
 ├── [2026-04-11]  README.md
 └── [2026-04-11]  TREE.md
 
-5 directories, 10 files
+5 directories, 15 files
 ```
 <!-- AUTO-TREE-END -->
 

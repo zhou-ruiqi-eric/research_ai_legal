@@ -14,15 +14,15 @@ It is a **curated visual knowledge map** designed to organize the AI industry, l
 **Color Legend & Structure (3 Types of Folders):**
 - $${\color{violet}\text{👤 Individual}}$$ → Real people names & profiles  
 - $${\color{green}\text{📚 KnowledgeBase}}$$ → Concepts, standards, certificates, frameworks (used as [[wiki links]])  
-- $${\color{teal}\text{🤖 AI Industry}}$$:
-  - Top level (teal): Major domains (AI-Legal, AI-Medicine…)  
+- $${\color{#00F5FF}\text{🤖 AI Industry}}$$:
+  - Top level (#00F5FF): Major domains (AI-Legal, AI-Medicine…)  
   - Second level (orange): Sub-segments (GRC, RegTech…)  
   - Third level (blue): Specific companies or websites
 
 .
 
 ${\color{white}\text{├─────────── }}$
-${\color{teal}\text{AI-Legal}}$
+${\color{#00F5FF}\text{AI-Legal}}$
 
 ${\color{white}\text{│\qquad\qquad\qquad\qquad├─────────── }}$
 ${\color{orange}\text{GRC}}$

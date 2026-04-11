@@ -8,7 +8,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 with open("TREE.md", "r", encoding="utf-8") as f:
     tree_lines = f.read().strip().splitlines()
 
-# Color function — using safe string concatenation (no f-string issues)
+# Color function — quadruple backslashes fix the regex escape issue
 def color_name(name: str, prefix: str) -> str:
     name = name.strip()
     if not name:
@@ -16,33 +16,30 @@ def color_name(name: str, prefix: str) -> str:
 
     # Knowledge_Base → Green
     if "Knowledge_Base" in name:
-        return "$${\\color{green}{" + name + "}}$$"
+        return "$${\\\\color{green}{" + name + "}}$$"
     
     # Individual → Violet
     if "Individual" in name:
-        return "$${\\color{violet}{" + name + "}}$$"
+        return "$${\\\\color{violet}{" + name + "}}$$"
     
-    # AI Industry top-level (AI-Legal, AI-Medicine...) → Teal
+    # AI Industry top-level → Teal
     if name.startswith("AI-"):
-        return "$${\\color{teal}{" + name + "}}$$"
+        return "$${\\\\color{teal}{" + name + "}}$$"
     
     # Sub-segments (GRC, RegTech...) → Orange
     if any(sym in prefix for sym in ["├──", "└──", "│   ", "│   "]) and len(prefix.strip()) > 0:
-        return "$${\\color{orange}{" + name + "}}$$"
+        return "$${\\\\color{orange}{" + name + "}}$$"
     
     # Companies / third level → Blue
     if any(sym in prefix for sym in ["│   │", "│   │", "    "]) or len(prefix) > 8:
-        return "$${\\color{blue}{" + name + "}}$$"
+        return "$${\\\\color{blue}{" + name + "}}$$"
     
     return name
 
-# Process every tree line
+# Process tree lines
 processed_tree = []
 for line in tree_lines:
-    # 1. Remove .md extension
-    line = re.sub(r'\.md$', '', line)
-    
-    # 2. Split prefix + name
+    line = re.sub(r'\.md$', '', line)                    # remove .md
     match = re.match(r'([├└│─\s]+)(.+)', line)
     if match:
         prefix = match.group(1)
@@ -53,7 +50,7 @@ for line in tree_lines:
 
 tree_colored = "\n".join(processed_tree)
 
-# Full explanation + legend block
+# Explanation + legend (also uses quadruple backslashes)
 new_block = """### 🌳 AI & Legal Knowledge Map
 
 **This is not** the literal output of the `tree` command.  
@@ -71,7 +68,7 @@ It is a **curated visual knowledge map** designed to organize the AI industry, l
 
 """ + tree_colored
 
-# Safe replacement
+# Replace the old block
 content = re.sub(
     r"<!-- AUTO-TREE-START -->.*?<!-- AUTO-TREE-END -->",
     f"<!-- AUTO-TREE-START -->\n{new_block}\n<!-- AUTO-TREE-END -->",

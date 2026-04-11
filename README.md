@@ -12,32 +12,32 @@ The goal of this project is to provide a clear overview of all major categories 
 It is a **curated visual knowledge map** designed to organize the AI industry, legal-tech research, and people.
 
 **Color Legend & Structure (3 Types of Folders):**
-- <span style="color: #9b59b6;">👤 Individual</span> → Real people names & profiles  
-- <span style="color: #2ecc71;">📚 Knowledge_Base</span> → Concepts, standards, certificates, frameworks (used as [[wiki links]])  
-- <span style="color: #1abc9c;">🤖 AI Industry</span>:
+- <span style="color:#9b59b6">👤 Individual</span> → Real people names & profiles  
+- <span style="color:#2ecc71">📚 Knowledge_Base</span> → Concepts, standards, certificates, frameworks (used as [[wiki links]])  
+- <span style="color:#1abc9c">🤖 AI Industry</span>:
   - Top level (teal): Major domains (AI-Legal, AI-Medicine…)  
   - Second level (orange): Sub-segments (GRC, RegTech…)  
   - Third level (blue): Specific companies or websites
 
-<pre><code>
+<pre style="font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace; white-space: pre; line-height: 1.4; overflow-x: auto; background-color: #0d1117; padding: 16px; border-radius: 8px; color: #c9d1d9;">
 .
-├── <span style="color: #1abc9c;">AI-Legal</span>
-│   ├── <span style="color: #f39c12;">GRC</span>
-│   │   └── <span style="color: #f39c12;">scytale.ai</span>
-│   ├── <span style="color: #f39c12;">RegTech</span>
-│   │   └── <span style="color: #f39c12;">compliance.ai</span>
-│   └── <span style="color: #f39c12;">Secureframe</span>
-├── <span style="color: #2ecc71;">Knowledge_Base</span>
-│   ├── <span style="color: #f39c12;">GDPR</span>
-│   ├── <span style="color: #f39c12;">HIPAA</span>
-│   ├── <span style="color: #f39c12;">ISO 27001</span>
-│   ├── <span style="color: #f39c12;">ISO 42001</span>
-│   ├── <span style="color: #f39c12;">PCI DSS</span>
-│   ├── <span style="color: #f39c12;">SOC 1</span>
-│   ├── <span style="color: #f39c12;">SOC 2</span>
-│   └── <span style="color: #f39c12;">SOX ITGC</span>
-└── <span style="color: #f39c12;">DISCLAIMER</span>
-</code></pre>
+├── <span style="color:#1abc9c">AI-Legal</span>
+│   ├── <span style="color:#f39c12">GRC</span>
+│   │   └── <span style="color:#f39c12">scytale.ai</span>
+│   ├── <span style="color:#f39c12">RegTech</span>
+│   │   └── <span style="color:#f39c12">compliance.ai</span>
+│   └── <span style="color:#f39c12">Secureframe</span>
+├── <span style="color:#2ecc71">Knowledge_Base</span>
+│   ├── <span style="color:#f39c12">GDPR</span>
+│   ├── <span style="color:#f39c12">HIPAA</span>
+│   ├── <span style="color:#f39c12">ISO 27001</span>
+│   ├── <span style="color:#f39c12">ISO 42001</span>
+│   ├── <span style="color:#f39c12">PCI DSS</span>
+│   ├── <span style="color:#f39c12">SOC 1</span>
+│   ├── <span style="color:#f39c12">SOC 2</span>
+│   └── <span style="color:#f39c12">SOX ITGC</span>
+└── <span style="color:#f39c12">DISCLAIMER</span>
+</pre>
 <!-- AUTO-TREE-END -->
 
 

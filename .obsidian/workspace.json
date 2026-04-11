@@ -170,6 +170,8 @@
   },
   "active": "deb9da1fab07ed84",
   "lastOpenFiles": [
+    "Individual",
+    "P",
     "Knowledge_Base/SOC 1.md",
     "Knowledge_Base/PCI DSS.md",
     "Knowledge_Base/ISO 42001.md",
@@ -182,7 +184,6 @@
     "AI-Legal/Secureframe.md",
     "TODO List.md",
     "Template/Template.md",
-    "Individual",
     "Knowledge_Base",
     "AI-Legal/未命名",
     "AI-Legal/RegTech/compliance.ai.md",

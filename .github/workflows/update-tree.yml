@@ -19,14 +19,14 @@ jobs:
       - name: Install tree command
         run: sudo apt-get update && sudo apt-get install -y tree
 
-      - name: Generate clean tree (no dates, no .md extensions)
+      - name: Generate clean tree (no dates, no unwanted root files)
         run: |
           tree --dirsfirst \
-               -I '.obsidian|.github|attachments|node_modules|.git|*.log|*.tmp|TREE.md' \
+               -I '.obsidian|.github|attachments|node_modules|.git|*.log|*.tmp|DISCLAIMER|License|README.md|TREE.md' \
                -L 6 \
-               --noreport | sed 's/\.md$//' > TREE.md
+               --noreport > TREE.md
 
-      - name: Replace tree in README.md
+      - name: Replace tree in README.md (with colors + explanation)
         run: python3 .github/scripts/replace_tree.py
 
       - name: Clean up temporary TREE.md
@@ -36,5 +36,5 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit_message: "chore: auto update folder tree 🌳"
+          commit_message: "chore: auto update colored folder tree map 🌳"
           file_pattern: README.md

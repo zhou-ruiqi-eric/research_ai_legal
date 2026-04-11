@@ -8,7 +8,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 with open("TREE.md", "r", encoding="utf-8") as f:
     tree_lines = f.read().strip().splitlines()
 
-# Color function for the NAME only (same as before)
+# Color function for the NAME only
 def color_name(name: str, prefix: str) -> str:
     name = name.strip()
     if not name:
@@ -33,7 +33,7 @@ def color_name(name: str, prefix: str) -> str:
     
     return name
 
-# NEW PROCESSING: split every tree line into TWO KaTeX lines
+# Process every tree line → white symbols + colored name + BLANK LINE
 processed_tree = []
 for line in tree_lines:
     # Remove .md extension
@@ -42,7 +42,7 @@ for line in tree_lines:
     # Split prefix (tree symbols) + name
     match = re.match(r'([├└│─\s]+)(.+)', line)
     if match:
-        prefix = match.group(1)          # e.g. "├── ", "│   ├── ", etc.
+        prefix = match.group(1)          # e.g. "├── ", "│   ├── ", "│   │   └── "
         name   = match.group(2).strip()
         
         # Line 1: white tree symbols
@@ -53,13 +53,13 @@ for line in tree_lines:
         
         processed_tree.append(white_prefix)
         processed_tree.append(colored_name)
+        processed_tree.append("")        # ←←← THIS CREATES THE EMPTY LINE
     else:
-        # Fallback (should not happen)
         processed_tree.append(line)
 
 tree_colored = "\n".join(processed_tree)
 
-# Final block (legend stays in display mode $$)
+# Final block
 new_block = """### 🌳 AI & Legal Knowledge Map
 
 **This is not** the literal output of the `tree` command.  
@@ -90,4 +90,4 @@ content = re.sub(
 with open("README.md", "w", encoding="utf-8") as f:
     f.write(content)
 
-print("✅ Tree updated to split-line format (white symbols + colored names)")
+print("✅ Tree updated with white symbols + colored names + empty line between each pair")

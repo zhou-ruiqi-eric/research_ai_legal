@@ -10,25 +10,22 @@ The goal of this project is to provide a clear overview of all major categories 
 .
 ├── AI-Legal
 │   ├── GRC
-│   │   └── scytale.ai.md
+│   │   └── scytale.ai
 │   ├── RegTech
-│   │   └── compliance.ai.md
-│   └── Secureframe.md
+│   │   └── compliance.ai
+│   └── Secureframe
 ├── Knowledge_Base
-│   ├── GDPR.md
-│   ├── HIPAA.md
-│   ├── ISO 27001.md
-│   ├── ISO 42001.md
-│   ├── PCI DSS.md
-│   ├── SOC 1.md
-│   ├── SOC 2.md
-│   └── SOX ITGC.md
-├── DISCLAIMER.md
+│   ├── GDPR
+│   ├── HIPAA
+│   ├── ISO 27001
+│   ├── ISO 42001
+│   ├── PCI DSS
+│   ├── SOC 1
+│   ├── SOC 2
+│   └── SOX ITGC
+├── DISCLAIMER
 ├── License
-├── README.md
-└── TREE.md
-
-5 directories, 15 files
+└── README
 ```
 <!-- AUTO-TREE-END -->
 

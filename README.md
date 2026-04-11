@@ -12,30 +12,30 @@ The goal of this project is to provide a clear overview of all major categories 
 It is a **curated visual knowledge map** designed to organize the AI industry, legal-tech research, and people.
 
 **Color Legend & Structure (3 Types of Folders):**
-- $${\color{violet}{👤 Individual}}$$ → Real people names & profiles  
-- $${\color{green}{📚 Knowledge_Base}}$$ → Concepts, standards, certificates, frameworks (used as [[wiki links]])  
-- $${\color{teal}{🤖 AI Industry}}$$:
+- $${\color{violet}\text{👤 Individual}}$$ → Real people names & profiles  
+- $${\color{green}\text{📚 Knowledge_Base}}$$ → Concepts, standards, certificates, frameworks (used as [[wiki links]])  
+- $${\color{teal}\text{🤖 AI Industry}}$$:
   - Top level (teal): Major domains (AI-Legal, AI-Medicine…)  
   - Second level (orange): Sub-segments (GRC, RegTech…)  
   - Third level (blue): Specific companies or websites
 
 .
-├── $${\color{teal}{AI-Legal}}$$
-│   ├── $${\color{orange}{GRC}}$$
-│   │   └── $${\color{orange}{scytale.ai}}$$
-│   ├── $${\color{orange}{RegTech}}$$
-│   │   └── $${\color{orange}{compliance.ai}}$$
-│   └── $${\color{orange}{Secureframe}}$$
-├── $${\color{green}{Knowledge_Base}}$$
-│   ├── $${\color{orange}{GDPR}}$$
-│   ├── $${\color{orange}{HIPAA}}$$
-│   ├── $${\color{orange}{ISO 27001}}$$
-│   ├── $${\color{orange}{ISO 42001}}$$
-│   ├── $${\color{orange}{PCI DSS}}$$
-│   ├── $${\color{orange}{SOC 1}}$$
-│   ├── $${\color{orange}{SOC 2}}$$
-│   └── $${\color{orange}{SOX ITGC}}$$
-└── $${\color{orange}{DISCLAIMER}}$$
+├── $${\color{teal}\text{AI-Legal}}$$
+│   ├── $${\color{orange}\text{GRC}}$$
+│   │   └── $${\color{orange}\text{scytale.ai}}$$
+│   ├── $${\color{orange}\text{RegTech}}$$
+│   │   └── $${\color{orange}\text{compliance.ai}}$$
+│   └── $${\color{orange}\text{Secureframe}}$$
+├── $${\color{green}\text{Knowledge_Base}}$$
+│   ├── $${\color{orange}\text{GDPR}}$$
+│   ├── $${\color{orange}\text{HIPAA}}$$
+│   ├── $${\color{orange}\text{ISO 27001}}$$
+│   ├── $${\color{orange}\text{ISO 42001}}$$
+│   ├── $${\color{orange}\text{PCI DSS}}$$
+│   ├── $${\color{orange}\text{SOC 1}}$$
+│   ├── $${\color{orange}\text{SOC 2}}$$
+│   └── $${\color{orange}\text{SOX ITGC}}$$
+└── $${\color{orange}\text{DISCLAIMER}}$$
 <!-- AUTO-TREE-END -->
 
 

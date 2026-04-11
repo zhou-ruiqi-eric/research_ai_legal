@@ -8,7 +8,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 with open("TREE.md", "r", encoding="utf-8") as f:
     tree_lines = f.read().strip().splitlines()
 
-# Color function — INLINE KaTeX for tree (keeps structure connected)
+# Color function for the NAME only (same as before)
 def color_name(name: str, prefix: str) -> str:
     name = name.strip()
     if not name:
@@ -23,7 +23,7 @@ def color_name(name: str, prefix: str) -> str:
     if name.startswith("AI-"):
         return "${\\color{teal}\\text{" + name + "}}$"
     
-    # Sub-segments (2nd level: GRC, RegTech...)
+    # Sub-segments (2nd level)
     if any(sym in prefix for sym in ["├──", "└──", "│   ", "│   "]) and len(prefix.strip()) > 0:
         return "${\\color{orange}\\text{" + name + "}}$"
     
@@ -33,23 +33,33 @@ def color_name(name: str, prefix: str) -> str:
     
     return name
 
-# Process tree lines
+# NEW PROCESSING: split every tree line into TWO KaTeX lines
 processed_tree = []
 for line in tree_lines:
     # Remove .md extension
     line = re.sub(r'\.md$', '', line)
     
-    # Split prefix + name
+    # Split prefix (tree symbols) + name
     match = re.match(r'([├└│─\s]+)(.+)', line)
     if match:
-        prefix = match.group(1)
-        name = match.group(2).strip()
-        line = prefix + color_name(name, prefix)
-    processed_tree.append(line)
+        prefix = match.group(1)          # e.g. "├── ", "│   ├── ", etc.
+        name   = match.group(2).strip()
+        
+        # Line 1: white tree symbols
+        white_prefix = "${\\color{white}\\text{" + prefix + "}}$"
+        
+        # Line 2: colored name
+        colored_name = color_name(name, prefix)
+        
+        processed_tree.append(white_prefix)
+        processed_tree.append(colored_name)
+    else:
+        # Fallback (should not happen)
+        processed_tree.append(line)
 
 tree_colored = "\n".join(processed_tree)
 
-# Final block (no extra blank lines between tree lines)
+# Final block (legend stays in display mode $$)
 new_block = """### 🌳 AI & Legal Knowledge Map
 
 **This is not** the literal output of the `tree` command.  
@@ -80,4 +90,4 @@ content = re.sub(
 with open("README.md", "w", encoding="utf-8") as f:
     f.write(content)
 
-print("✅ Tree updated with inline KaTeX (connected structure) + KnowledgeBase")
+print("✅ Tree updated to split-line format (white symbols + colored names)")

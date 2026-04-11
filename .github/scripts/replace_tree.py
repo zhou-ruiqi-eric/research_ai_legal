@@ -8,7 +8,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 with open("TREE.md", "r", encoding="utf-8") as f:
     tree_lines = f.read().strip().splitlines()
 
-# Color function for the NAME only
+# Color function (redesigned for dark background)
 def color_name(name: str, prefix: str) -> str:
     name = name.strip()
     if not name:
@@ -24,40 +24,41 @@ def color_name(name: str, prefix: str) -> str:
         return "${\\color{teal}\\text{" + name + "}}$"
     
     # Sub-segments (2nd level)
-    if any(sym in prefix for sym in ["├────────", 
-                                     "└────────", 
-                                     "│        ", 
-                                     "│        "]) and len(prefix.strip()) > 0:
+    if any(sym in prefix for sym in ["├──", "└──", "│   ", "│   "]) and len(prefix.strip()) > 0:
         return "${\\color{orange}\\text{" + name + "}}$"
     
     # Companies / 3rd level
-    if any(sym in prefix for sym in ["│        │", 
-                                     "│        │"]) or len(prefix) > 8:
+    if any(sym in prefix for sym in ["│   │", "│   │"]) or len(prefix) > 8:
         return "${\\color{blue}\\text{" + name + "}}$"
     
     return name
 
-# Process every tree line → white symbols + colored name + BLANK LINE
+# Make tree horizontally MUCH wider (your requested style)
+def widen_prefix(prefix: str) -> str:
+    prefix = prefix.replace("├── ", "├───────────────── ")
+    prefix = prefix.replace("└── ", "└───────────────── ")
+    prefix = prefix.replace("│   ", "│                  ")
+    prefix = prefix.replace("    ", "                   ")   # deeper levels
+    return prefix
+
+# Process every tree line → white symbols + colored name + empty line
 processed_tree = []
 for line in tree_lines:
-    # Remove .md extension
     line = re.sub(r'\.md$', '', line)
     
-    # Split prefix (tree symbols) + name
     match = re.match(r'([├└│─\s]+)(.+)', line)
     if match:
-        prefix = match.group(1)          # e.g. "├── ", "│   ├── ", "│   │   └── "
+        prefix = match.group(1)
         name   = match.group(2).strip()
         
-        # Line 1: white tree symbols
-        white_prefix = "${\\color{white}\\text{" + prefix + "}}$"
+        wide_prefix = widen_prefix(prefix)
         
-        # Line 2: colored name
+        white_line   = "${\\color{white}\\text{" + wide_prefix + "}}$"
         colored_name = color_name(name, prefix)
         
-        processed_tree.append(white_prefix)
+        processed_tree.append(white_line)
         processed_tree.append(colored_name)
-        processed_tree.append("")        # ←←← THIS CREATES THE EMPTY LINE
+        processed_tree.append("")          # empty line between each pair
     else:
         processed_tree.append(line)
 
@@ -94,4 +95,4 @@ content = re.sub(
 with open("README.md", "w", encoding="utf-8") as f:
     f.write(content)
 
-print("✅ Tree updated with white symbols + colored names + empty line between each pair")
+print("✅ Tree updated: wider horizontal spacing + redesigned colors for dark background")

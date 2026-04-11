@@ -37,7 +37,7 @@ def color_name(name: str, prefix: str) -> str:
 def widen_prefix(prefix: str) -> str:
     prefix = prefix.replace("├── ", "├─────────── ")
     prefix = prefix.replace("└── ", "└─────────── ")
-    prefix = prefix.replace("│   ", "│\qquad\qquad\qquad\qquad\qquad")
+    prefix = prefix.replace("│   ", "│\qquad\qquad\qquad\qquad")
     prefix = prefix.replace("    ", "\qquad\qquad\qquad\qquad")   # deeper levels
     return prefix
 

@@ -12,9 +12,6 @@ jobs:
     permissions:
       contents: write
 
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -22,14 +19,18 @@ jobs:
       - name: Install tree command
         run: sudo apt-get update && sudo apt-get install -y tree
 
-      - name: Generate tree (clean structure)
+      - name: Generate clean tree (no dates, no .md extensions)
         run: |
           tree --dirsfirst \
-               -I '.obsidian|.github|attachments|node_modules|.git|*.log|*.tmp' \
-               -L 6 > TREE.md
+               -I '.obsidian|.github|attachments|node_modules|.git|*.log|*.tmp|TREE.md' \
+               -L 6 \
+               --noreport | sed 's/\.md$//' > TREE.md
 
       - name: Replace tree in README.md
         run: python3 .github/scripts/replace_tree.py
+
+      - name: Clean up temporary TREE.md
+        run: rm -f TREE.md
 
       - name: Commit & Push updated README
         uses: stefanzweifel/git-auto-commit-action@v5

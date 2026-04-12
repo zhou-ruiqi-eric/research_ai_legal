@@ -96,6 +96,9 @@ $\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├�
 [<span style="color:white">apryse.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/LegalTech/apryse.com.md)
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
+[<span style="color:white">carta.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/LegalTech/carta.com.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
 [<span style="color:white">caseflood.ai</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/LegalTech/caseflood.ai.md)
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
@@ -106,6 +109,12 @@ $\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├�
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
 [<span style="color:white">clio.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/LegalTech/clio.com.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
+[<span style="color:white">complyadvantage.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/LegalTech/complyadvantage.com.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
+[<span style="color:white">covalynt.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/LegalTech/covalynt.com.md)
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
 [<span style="color:white">darrow.ai</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/LegalTech/darrow.ai.md)
@@ -133,6 +142,9 @@ $\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├�
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
 [<span style="color:white">mycase.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/LegalTech/mycase.com.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
+[<span style="color:white">patsnap.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/LegalTech/patsnap.com.md)
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
 [<span style="color:white">paxton.ai</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/LegalTech/paxton.ai.md)
@@ -226,11 +238,5 @@ $\color{white}{\text{Template}}$
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad└─────────── }}$
 [<span style="color:white">Template</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/Template/Template.md)
-
-$\color{white}{\text{├─────────── }}$
-[<span style="color:white">carta.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/carta.com.md)
-
-$\color{white}{\text{└─────────── }}$
-[<span style="color:white">patsnap.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/patsnap.com.md)
 
 <!-- AUTO-TREE-END -->

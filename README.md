@@ -80,6 +80,9 @@ $\color{white}{\text{LegalLLM}}$
 $\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
 [<span style="color:white">harvey.ai</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/LegalLLM/harvey.ai.md)
 
+$\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
+[<span style="color:white">integreon.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/LegalLLM/integreon.com.md)
+
 $\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad└─────────── }}$
 [<span style="color:white">legora.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/LegalLLM/legora.com.md)
 
@@ -132,6 +135,9 @@ $\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├�
 [<span style="color:white">gavel.io</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/LegalTech/gavel.io.md)
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
+[<span style="color:white">grata.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/LegalTech/grata.com.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
 [<span style="color:white">hona.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/LegalTech/hona.com.md)
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
@@ -153,6 +159,9 @@ $\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├�
 [<span style="color:white">mycase.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/LegalTech/mycase.com.md)
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
+[<span style="color:white">parley.so</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/LegalTech/parley.so.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
 [<span style="color:white">patsnap.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/LegalTech/patsnap.com.md)
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
@@ -164,8 +173,11 @@ $\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├�
 $\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
 [<span style="color:white">smith.ai</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/LegalTech/smith.ai.md)
 
-$\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad└─────────── }}$
+$\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
 [<span style="color:white">theoai.ai</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/LegalTech/theoai.ai.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad└─────────── }}$
+[<span style="color:white">visalaw.ai</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/LegalTech/visalaw.ai.md)
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────── }}$
 $\color{white}{\text{MedicineLegal}}$
@@ -196,6 +208,9 @@ $\color{white}{\text{eDiscovery}}$
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad├─────────── }}$
 [<span style="color:white">csdisco.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/eDiscovery/csdisco.com.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad├─────────── }}$
+[<span style="color:white">epiqglobal.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/eDiscovery/epiqglobal.com.md)
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad├─────────── }}$
 [<span style="color:white">everlaw.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/eDiscovery/everlaw.com.md)
@@ -250,5 +265,23 @@ $\color{white}{\text{Template}}$
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad└─────────── }}$
 [<span style="color:white">Template</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/Template/Template.md)
+
+$\color{white}{\text{├─────────── }}$
+[<span style="color:white">ailaw.ai</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/ailaw.ai.md)
+
+$\color{white}{\text{├─────────── }}$
+[<span style="color:white">draftyai.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/draftyai.com.md)
+
+$\color{white}{\text{├─────────── }}$
+[<span style="color:white">ellis.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/ellis.com.md)
+
+$\color{white}{\text{├─────────── }}$
+[<span style="color:white">imagility.co</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/imagility.co.md)
+
+$\color{white}{\text{├─────────── }}$
+[<span style="color:white">mitratech.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/mitratech.com.md)
+
+$\color{white}{\text{└─────────── }}$
+[<span style="color:white">visas.ai</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/visas.ai.md)
 
 <!-- AUTO-TREE-END -->

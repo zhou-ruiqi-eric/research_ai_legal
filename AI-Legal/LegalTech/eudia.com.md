@@ -1,3 +1,4 @@
+for in-house corporate legal teams,"Company Brain"/Expert Digital Twins
 
 | Target User <br>(ToB, ToC)                          | ToB |
 | --------------------------------------------------- | --- |

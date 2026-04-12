@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI-Legal/CLM(ContractLifecycleManagement)/spotdraft.com.md",
+                "file": "AI-Legal/LegalTech/eudia.com.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "spotdraft.com"
+              "title": "eudia.com"
             }
           }
         ]
@@ -170,7 +170,8 @@
   },
   "active": "def8532c60c1530e",
   "lastOpenFiles": [
-    "eudia.com.md",
+    "AI-Legal/CLM(ContractLifecycleManagement)/spotdraft.com.md",
+    "AI-Legal/LegalTech/eudia.com.md",
     "AI-Legal/LegalTech/theoai.ai.md",
     "AI-Legal/MicrosoftWordAddIn/spellbook.legal.md",
     "AI-Legal/LegalTech/paxton.ai.md",
@@ -189,7 +190,6 @@
     "AI-Legal/CLM(ContractLifecycleManagement)/luminance.com.md",
     "AI-Legal/CLM(ContractLifecycleManagement)/sirion.ai.md",
     "AI-Legal/CLM(ContractLifecycleManagement)",
-    "AI-Legal/CLM(ContractLifecycleManagement)/spotdraft.com.md",
     "AI-Legal/GRC(GovernanceRiskCompliance)/freyrregintel.com.md",
     "Template/Template.md",
     "DISCLAIMER.md",

@@ -1,0 +1,3 @@
+- the definitive annual ranking of the 100 largest law firms in the United States by gross revenue
+- published each spring by The American Lawyer
+- gold standard benchmark for the performance of "[[Biglaw]]"

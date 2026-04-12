@@ -2,5 +2,7 @@
   "promptDelete": false,
   "newFileLocation": "current",
   "attachmentFolderPath": "./",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true,
+  "userIgnoreFilters": null
 }

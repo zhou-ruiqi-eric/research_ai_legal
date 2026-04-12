@@ -47,8 +47,11 @@ $\color{white}{\text{LegalTech}}$
 $\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
 [<span style="color:white">harvey.ai</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/LegalTech/harvey.ai.md)
 
-$\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad└─────────── }}$
+$\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
 [<span style="color:white">paxton.ai</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/LegalTech/paxton.ai.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad└─────────── }}$
+[<span style="color:white">theoai.ai</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/LegalTech/theoai.ai.md)
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad└─────────── }}$
 $\color{white}{\text{RegTech}}$
@@ -100,8 +103,5 @@ $\color{white}{\text{Template}}$
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad└─────────── }}$
 [<span style="color:white">Template</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/Template/Template.md)
-
-$\color{white}{\text{└─────────── }}$
-[<span style="color:white">theoai.ai</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/theoai.ai.md)
 
 <!-- AUTO-TREE-END -->

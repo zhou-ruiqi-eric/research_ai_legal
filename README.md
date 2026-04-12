@@ -104,11 +104,26 @@ $\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├�
 $\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad└─────────── }}$
 [<span style="color:white">spellbook.legal</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/MicrosoftWordAddIn/spellbook.legal.md)
 
-$\color{white}{\text{│\qquad\qquad\qquad\qquad└─────────── }}$
+$\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────── }}$
 $\color{white}{\text{RegTech}}$
 
-$\color{white}{\text{│\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad└─────────── }}$
+$\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad└─────────── }}$
 [<span style="color:white">compliance.ai</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/RegTech/compliance.ai.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad└─────────── }}$
+$\color{white}{\text{eDiscovery}}$
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad├─────────── }}$
+[<span style="color:white">csdisco.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/eDiscovery/csdisco.com.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad├─────────── }}$
+[<span style="color:white">everlaw.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/eDiscovery/everlaw.com.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad├─────────── }}$
+[<span style="color:white">logikcull.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/eDiscovery/logikcull.com.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad└─────────── }}$
+[<span style="color:white">relativity.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/eDiscovery/relativity.com.md)
 
 $\color{white}{\text{├─────────── }}$
 $\color{white}{\text{Individual}}$

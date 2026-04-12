@@ -1,3 +1,4 @@
+Microsoft Word add-in
 
 | Target User <br>(ToB, ToC)                          | ToB<br>- Litigators and legal teams at AmLaw 10/200 firms<br>- boutique firms<br>- global in-house counsel<br>- government agencies, courts, arbitrators <br>- internal investigation teams.<br>- solo/small firms |
 | --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |

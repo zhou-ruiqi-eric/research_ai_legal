@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "juro.com.md",
+                "file": "AI-Legal/CLM(ContractLifecycleManagement)/spotdraft.com.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "juro.com"
+              "title": "spotdraft.com"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 299.5004348754883
   },
   "right": {
     "id": "229660bf1cb79bd1",
@@ -168,24 +168,30 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "deb9da1fab07ed84",
+  "active": "def8532c60c1530e",
   "lastOpenFiles": [
-    "icertis.com.md",
-    "juro.com.md",
-    "sirion.ai.md",
-    "AI-Legal/LegalTech/ironcladapp.com.md",
-    "AI-Legal/LegalTech/linksquares.com.md",
-    "AI-Legal/LegalTech/evisort.com.md",
-    "AI-Legal/GRC(GovernanceRiskCompliance)/freyrregintel.com.md",
-    "AI-Legal/LegalTech/luminance.com.md",
-    "Template/Template.md",
-    "AI-Legal/LegalTech/supio.com.md",
-    "AI-Legal/LegalTech/spellbook.legal.md",
-    "AI-Legal/LegalTech/clearbrief.com.md",
-    "AI-Legal/LegalTech/legora.com.md",
+    "eudia.com.md",
     "AI-Legal/LegalTech/theoai.ai.md",
+    "AI-Legal/MicrosoftWordAddIn/spellbook.legal.md",
     "AI-Legal/LegalTech/paxton.ai.md",
-    "AI-Legal/LegalTech/harvey.ai.md",
+    "AI-Legal/LegalLLM/legora.com.md",
+    "AI-Legal/MicrosoftWordAddIn/clearbrief.com.md",
+    "AI-Legal/MicrosoftWordAddIn",
+    "AI-Legal/LegalLLM/harvey.ai.md",
+    "AI-Legal/LegalLLM",
+    "AI-Legal/CLM(ContractLifecycleManagement)/icertis.com.md",
+    "AI-Legal/MedicineLegal/supio.com.md",
+    "AI-Legal/CLM(ContractLifecycleManagement)/evisort.com.md",
+    "AI-Legal/MedicineLegal",
+    "AI-Legal/CLM(ContractLifecycleManagement)/ironcladapp.com.md",
+    "AI-Legal/CLM(ContractLifecycleManagement)/juro.com.md",
+    "AI-Legal/CLM(ContractLifecycleManagement)/linksquares.com.md",
+    "AI-Legal/CLM(ContractLifecycleManagement)/luminance.com.md",
+    "AI-Legal/CLM(ContractLifecycleManagement)/sirion.ai.md",
+    "AI-Legal/CLM(ContractLifecycleManagement)",
+    "AI-Legal/CLM(ContractLifecycleManagement)/spotdraft.com.md",
+    "AI-Legal/GRC(GovernanceRiskCompliance)/freyrregintel.com.md",
+    "Template/Template.md",
     "DISCLAIMER.md",
     "未命名.canvas",
     "README.md",
@@ -196,16 +202,9 @@
     "Template",
     "Template.md",
     "Template copy.md",
-    "AI-Legal/GRC(GovernanceRiskCompliance)/secureframe.com.md",
-    "AI-Legal/GRC(GovernanceRiskCompliance)/scytale.ai.md",
-    "AI-Legal/GRC(GovernanceRiskCompliance)/centraleyes.com.md",
     "AI-Legal/GRC(GovernanceRiskCompliance)",
     "AI-Legal/CMP(ConsentManagementPlatform)",
     "AI-Legal/BusinessPlanGenerator",
-    "AI-Legal/Business Plan Generator",
-    "AI-Legal/CMP(Consent Management Platform)",
-    "a.css",
-    "a.html",
-    "KnowledgeBase"
+    "AI-Legal/Business Plan Generator"
   ]
 }

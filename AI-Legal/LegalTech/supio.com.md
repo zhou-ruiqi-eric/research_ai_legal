@@ -1,0 +1,10 @@
+medical related 
+
+| Target User <br>(ToB, ToC)                          | ToB<br>- Personal injury (PI) law firms, mass tort plaintiff teams, and their attorneys/paralegals.                                                                                                                                                                                        |
+| --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Product / Service                                   | AI-powered platform (CaseAware™ AI) for automating medical record review, generating medical chronologies, drafting demand letters and litigation documents (complaints, motions, etc.), case insights, timelines, bill/lien management, and an AI assistant/chat for querying case files. |
+| Pain Points                                         | - unstructured medical records and documents                                                                                                                                                                                                                                               |
+| Price                                               |                                                                                                                                                                                                                                                                                            |
+| Can I try it<br>Yes / No, Book a demo or Developing | No                                                                                                                                                                                                                                                                                         |
+
+

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI-Legal/LegalTech/legora.com.md",
+                "file": "juro.com.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "legora.com"
+              "title": "juro.com"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 280.50271224975586,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "229660bf1cb79bd1",
@@ -171,8 +170,20 @@
   },
   "active": "deb9da1fab07ed84",
   "lastOpenFiles": [
-    "AI-Legal/LegalTech/theoai.ai.md",
+    "icertis.com.md",
+    "juro.com.md",
+    "sirion.ai.md",
+    "AI-Legal/LegalTech/ironcladapp.com.md",
+    "AI-Legal/LegalTech/linksquares.com.md",
+    "AI-Legal/LegalTech/evisort.com.md",
+    "AI-Legal/GRC(GovernanceRiskCompliance)/freyrregintel.com.md",
+    "AI-Legal/LegalTech/luminance.com.md",
+    "Template/Template.md",
+    "AI-Legal/LegalTech/supio.com.md",
+    "AI-Legal/LegalTech/spellbook.legal.md",
+    "AI-Legal/LegalTech/clearbrief.com.md",
     "AI-Legal/LegalTech/legora.com.md",
+    "AI-Legal/LegalTech/theoai.ai.md",
     "AI-Legal/LegalTech/paxton.ai.md",
     "AI-Legal/LegalTech/harvey.ai.md",
     "DISCLAIMER.md",
@@ -182,29 +193,17 @@
     "KnowledgeBase/Am Law 100.md",
     "KnowledgeBase/Biglaw.md",
     "AI-Legal/GRC(GovernanceRiskCompliance)/scrut.io.md",
-    "Template/Template.md",
     "Template",
-    "AI-Legal/GRC(GovernanceRiskCompliance)/freyrregintel.com.md",
     "Template.md",
     "Template copy.md",
     "AI-Legal/GRC(GovernanceRiskCompliance)/secureframe.com.md",
     "AI-Legal/GRC(GovernanceRiskCompliance)/scytale.ai.md",
     "AI-Legal/GRC(GovernanceRiskCompliance)/centraleyes.com.md",
     "AI-Legal/GRC(GovernanceRiskCompliance)",
-    "AI-Legal/CMP(ConsentManagementPlatform)/termly.io.md",
     "AI-Legal/CMP(ConsentManagementPlatform)",
-    "AI-Legal/BusinessPlanGenerator/growth-grid.ai.md",
     "AI-Legal/BusinessPlanGenerator",
-    "AI-Legal/Business Plan Generator/growth-grid.ai.md",
     "AI-Legal/Business Plan Generator",
-    "AI-Legal/CMP(Consent Management Platform)/termly.io.md",
-    "Template copy 4.md",
-    "Template copy 3.md",
-    "Template copy 2.md",
     "AI-Legal/CMP(Consent Management Platform)",
-    "AI-Legal/RegTech/compliance.ai.md",
-    "AI-Legal/GRC(Governance, Risk, and Compliance)/secureframe.com.md",
-    "AI-Legal/GRC(Governance, Risk, and Compliance)/scytale.ai.md",
     "a.css",
     "a.html",
     "KnowledgeBase"

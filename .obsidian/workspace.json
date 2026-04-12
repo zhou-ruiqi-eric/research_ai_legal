@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI-Legal/LegalTech/covalynt.com.md",
+                "file": "AI-Legal/LegalTech/intapp.com.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "covalynt.com"
+              "title": "intapp.com"
             }
           }
         ]
@@ -170,8 +170,12 @@
   },
   "active": "def8532c60c1530e",
   "lastOpenFiles": [
-    "AI-Legal/GRC(GovernanceRiskCompliance)/freyrregintel.com.md",
+    "AI-Legal/LegalTech/legatics.com.md",
+    "AI-Legal/LegalTech/intapp.com.md",
+    "AI-Legal/RegTech/ascentregtech.com.md",
+    "AI-Legal/GRC(GovernanceRiskCompliance)/vanta.com.md",
     "AI-Legal/LegalTech/covalynt.com.md",
+    "AI-Legal/GRC(GovernanceRiskCompliance)/freyrregintel.com.md",
     "AI-Legal/LegalTech/complyadvantage.com.md",
     "AI-Legal/LegalTech/patsnap.com.md",
     "AI-Legal/LegalTech/carta.com.md",
@@ -192,11 +196,7 @@
     "AI-Legal/CLM(ContractLifecycleManagement)/linksquares.com.md",
     "AI-Legal/MedicineLegal/supio.com.md",
     "AI-Legal/LegalTech/clearpeople.com.md",
-    "AI-Legal/LegalResearch/legal.thomsonreuters.com.md",
-    "AI-Legal/LegalResearch/lexisnexis.com.md",
     "AI-Legal/LegalResearch",
-    "AI-Legal/LegalLLM/harvey.ai.md",
-    "AI-Legal/LegalTech/darrow.ai.md",
     "AI-Legal/eDiscovery",
     "AI-Legal/MicrosoftWordAddIn",
     "AI-Legal/LegalLLM",

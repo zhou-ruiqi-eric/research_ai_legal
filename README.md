@@ -12,28 +12,28 @@ $\color{white}{\text{├─────────── }}$
 $\color{white}{\text{AI-Legal}}$
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────── }}$
-$\color{white}{\text{Business Plan Generator}}$
+$\color{white}{\text{BusinessPlanGenerator}}$
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad└─────────── }}$
-[<span style="color:white">growth-grid.ai</span>]([[github/zhou-ruiqi-eric/research_ai_legal]] [🔗](https://github.com/zhou-ruiqi-eric/research_ai_legal) Plan Generator/growth-grid.ai.md)
+[<span style="color:white">growth-grid.ai</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/BusinessPlanGenerator/growth-grid.ai.md)
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────── }}$
-$\color{white}{\text{CMP(Consent Management Platform)}}$
+$\color{white}{\text{CMP(ConsentManagementPlatform)}}$
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad└─────────── }}$
-[<span style="color:white">termly.io</span>]([[github/zhou-ruiqi-eric/research_ai_legal]] [🔗](https://github.com/zhou-ruiqi-eric/research_ai_legal) Management Platform)/termly.io.md)
+[<span style="color:white">termly.io</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/CMP(ConsentManagementPlatform)/termly.io.md)
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────── }}$
-$\color{white}{\text{GRC(Governance, Risk, and Compliance)}}$
+$\color{white}{\text{GRC(GovernanceRiskCompliance)}}$
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
-[<span style="color:white">centraleyes.com</span>]([[github/zhou-ruiqi-eric/research_ai_legal]] [🔗](https://github.com/zhou-ruiqi-eric/research_ai_legal) Risk, and Compliance)/centraleyes.com.md)
+[<span style="color:white">centraleyes.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/GRC(GovernanceRiskCompliance)/centraleyes.com.md)
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
-[<span style="color:white">scytale.ai</span>]([[github/zhou-ruiqi-eric/research_ai_legal]] [🔗](https://github.com/zhou-ruiqi-eric/research_ai_legal) Risk, and Compliance)/scytale.ai.md)
+[<span style="color:white">scytale.ai</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/GRC(GovernanceRiskCompliance)/scytale.ai.md)
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad└─────────── }}$
-[<span style="color:white">secureframe.com</span>]([[github/zhou-ruiqi-eric/research_ai_legal]] [🔗](https://github.com/zhou-ruiqi-eric/research_ai_legal) Risk, and Compliance)/secureframe.com.md)
+[<span style="color:white">secureframe.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/GRC(GovernanceRiskCompliance)/secureframe.com.md)
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad└─────────── }}$
 $\color{white}{\text{RegTech}}$

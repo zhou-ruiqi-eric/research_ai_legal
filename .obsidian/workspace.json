@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "theoai.ai.md",
+                "file": "AI-Legal/LegalTech/theoai.ai.md",
                 "mode": "source",
                 "source": false
               },
@@ -168,11 +168,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "deb9da1fab07ed84",
+  "active": "def8532c60c1530e",
   "lastOpenFiles": [
     "AI-Legal/LegalTech/paxton.ai.md",
     "AI-Legal/LegalTech/harvey.ai.md",
-    "theoai.ai.md",
+    "AI-Legal/LegalTech/theoai.ai.md",
     "DISCLAIMER.md",
     "未命名.canvas",
     "README.md",

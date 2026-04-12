@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI-Legal/LegalTech/hona.com.md",
+                "file": "smith.ai.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "hona.com"
+              "title": "smith.ai"
             }
           }
         ]
@@ -168,10 +168,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "def8532c60c1530e",
+  "active": "95b8fc68a5a0918d",
   "lastOpenFiles": [
-    "casestatus.com.md",
+    "justpoint.com.md",
+    "smith.ai.md",
+    "caseflood.ai.md",
+    "apryse.com.md",
+    "AI-Legal/LegalTech/legalmation.com.md",
+    "AI-Legal/LegalTech/leegality.com.md",
+    "AI-Legal/LegalTech/gavel.io.md",
     "AI-Legal/LegalTech/hona.com.md",
+    "AI-Legal/LegalTech/casestatus.com.md",
     "AI-Legal/LegalTech/practicepanther.com.md",
     "AI-Legal/LegalTech/mycase.com.md",
     "AI-Legal/LegalTech/clio.com.md",
@@ -191,15 +198,8 @@
     "AI-Legal/eDiscovery",
     "AI-Legal/LegalTech/eudia.com.md",
     "AI-Legal/CLM(ContractLifecycleManagement)/spotdraft.com.md",
-    "AI-Legal/LegalTech/theoai.ai.md",
-    "AI-Legal/MicrosoftWordAddIn/spellbook.legal.md",
-    "AI-Legal/LegalTech/paxton.ai.md",
-    "AI-Legal/LegalLLM/legora.com.md",
-    "AI-Legal/MicrosoftWordAddIn/clearbrief.com.md",
     "AI-Legal/MicrosoftWordAddIn",
     "AI-Legal/LegalLLM",
-    "AI-Legal/CLM(ContractLifecycleManagement)/icertis.com.md",
-    "AI-Legal/CLM(ContractLifecycleManagement)/evisort.com.md",
     "AI-Legal/MedicineLegal",
     "AI-Legal/CLM(ContractLifecycleManagement)",
     "未命名.canvas",

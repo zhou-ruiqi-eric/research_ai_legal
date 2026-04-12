@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "smith.ai.md",
+                "file": "patsnap.com.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "smith.ai"
+              "title": "patsnap.com"
             }
           }
         ]
@@ -170,10 +170,13 @@
   },
   "active": "95b8fc68a5a0918d",
   "lastOpenFiles": [
-    "justpoint.com.md",
-    "smith.ai.md",
-    "caseflood.ai.md",
-    "apryse.com.md",
+    "carta.com.md",
+    "patsnap.com.md",
+    "AI-Legal/LegalTech/caseflood.ai.md",
+    "AI-Legal/GRC(GovernanceRiskCompliance)/diligent.com.md",
+    "AI-Legal/LegalTech/smith.ai.md",
+    "AI-Legal/LegalTech/justpoint.com.md",
+    "AI-Legal/LegalTech/apryse.com.md",
     "AI-Legal/LegalTech/legalmation.com.md",
     "AI-Legal/LegalTech/leegality.com.md",
     "AI-Legal/LegalTech/gavel.io.md",
@@ -194,10 +197,7 @@
     "AI-Legal/eDiscovery/logikcull.com.md",
     "AI-Legal/eDiscovery/relativity.com.md",
     "AI-Legal/eDiscovery/everlaw.com.md",
-    "AI-Legal/eDiscovery/csdisco.com.md",
     "AI-Legal/eDiscovery",
-    "AI-Legal/LegalTech/eudia.com.md",
-    "AI-Legal/CLM(ContractLifecycleManagement)/spotdraft.com.md",
     "AI-Legal/MicrosoftWordAddIn",
     "AI-Legal/LegalLLM",
     "AI-Legal/MedicineLegal",

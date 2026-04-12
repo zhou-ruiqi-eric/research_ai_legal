@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI-Legal/LegalTech/intapp.com.md",
+                "file": "mitratech.com.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "intapp.com"
+              "title": "mitratech.com"
             }
           }
         ]
@@ -168,10 +168,21 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "def8532c60c1530e",
+  "active": "95b8fc68a5a0918d",
   "lastOpenFiles": [
-    "AI-Legal/LegalTech/legatics.com.md",
+    "ellis.com.md",
+    "mitratech.com.md",
+    "visas.ai.md",
+    "imagility.co.md",
+    "ailaw.ai.md",
+    "draftyai.com.md",
+    "AI-Legal/LegalTech/visalaw.ai.md",
+    "AI-Legal/LegalTech/parley.so.md",
+    "AI-Legal/LegalLLM/integreon.com.md",
+    "AI-Legal/LegalTech/grata.com.md",
+    "AI-Legal/eDiscovery/epiqglobal.com.md",
     "AI-Legal/LegalTech/intapp.com.md",
+    "AI-Legal/LegalTech/legatics.com.md",
     "AI-Legal/RegTech/ascentregtech.com.md",
     "AI-Legal/GRC(GovernanceRiskCompliance)/vanta.com.md",
     "AI-Legal/LegalTech/covalynt.com.md",
@@ -185,17 +196,6 @@
     "AI-Legal/LegalTech/justpoint.com.md",
     "AI-Legal/LegalTech/apryse.com.md",
     "AI-Legal/LegalTech/legalmation.com.md",
-    "AI-Legal/LegalTech/leegality.com.md",
-    "AI-Legal/LegalTech/gavel.io.md",
-    "AI-Legal/LegalTech/hona.com.md",
-    "AI-Legal/LegalTech/casestatus.com.md",
-    "AI-Legal/LegalTech/practicepanther.com.md",
-    "AI-Legal/LegalTech/mycase.com.md",
-    "AI-Legal/LegalTech/clio.com.md",
-    "AI-Legal/LegalTech/filevine.com.md",
-    "AI-Legal/CLM(ContractLifecycleManagement)/linksquares.com.md",
-    "AI-Legal/MedicineLegal/supio.com.md",
-    "AI-Legal/LegalTech/clearpeople.com.md",
     "AI-Legal/LegalResearch",
     "AI-Legal/eDiscovery",
     "AI-Legal/MicrosoftWordAddIn",

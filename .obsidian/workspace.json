@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI-Legal/LegalTech/theoai.ai.md",
+                "file": "AI-Legal/LegalTech/legora.com.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "theoai.ai"
+              "title": "legora.com"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 280.50271224975586
+    "width": 280.50271224975586,
+    "collapsed": true
   },
   "right": {
     "id": "229660bf1cb79bd1",
@@ -168,11 +169,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "def8532c60c1530e",
+  "active": "deb9da1fab07ed84",
   "lastOpenFiles": [
+    "AI-Legal/LegalTech/theoai.ai.md",
+    "AI-Legal/LegalTech/legora.com.md",
     "AI-Legal/LegalTech/paxton.ai.md",
     "AI-Legal/LegalTech/harvey.ai.md",
-    "AI-Legal/LegalTech/theoai.ai.md",
     "DISCLAIMER.md",
     "未命名.canvas",
     "README.md",
@@ -203,7 +205,6 @@
     "AI-Legal/RegTech/compliance.ai.md",
     "AI-Legal/GRC(Governance, Risk, and Compliance)/secureframe.com.md",
     "AI-Legal/GRC(Governance, Risk, and Compliance)/scytale.ai.md",
-    "AI-Legal/GRC(Governance, Risk, and Compliance)/centraleyes.com.md",
     "a.css",
     "a.html",
     "KnowledgeBase"

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "patsnap.com.md",
+                "file": "AI-Legal/LegalTech/covalynt.com.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "patsnap.com"
+              "title": "covalynt.com"
             }
           }
         ]
@@ -168,10 +168,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "95b8fc68a5a0918d",
+  "active": "def8532c60c1530e",
   "lastOpenFiles": [
-    "carta.com.md",
-    "patsnap.com.md",
+    "AI-Legal/GRC(GovernanceRiskCompliance)/freyrregintel.com.md",
+    "AI-Legal/LegalTech/covalynt.com.md",
+    "AI-Legal/LegalTech/complyadvantage.com.md",
+    "AI-Legal/LegalTech/patsnap.com.md",
+    "AI-Legal/LegalTech/carta.com.md",
     "AI-Legal/LegalTech/caseflood.ai.md",
     "AI-Legal/GRC(GovernanceRiskCompliance)/diligent.com.md",
     "AI-Legal/LegalTech/smith.ai.md",
@@ -194,9 +197,6 @@
     "AI-Legal/LegalResearch",
     "AI-Legal/LegalLLM/harvey.ai.md",
     "AI-Legal/LegalTech/darrow.ai.md",
-    "AI-Legal/eDiscovery/logikcull.com.md",
-    "AI-Legal/eDiscovery/relativity.com.md",
-    "AI-Legal/eDiscovery/everlaw.com.md",
     "AI-Legal/eDiscovery",
     "AI-Legal/MicrosoftWordAddIn",
     "AI-Legal/LegalLLM",

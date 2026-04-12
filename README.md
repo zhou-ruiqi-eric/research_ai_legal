@@ -18,6 +18,33 @@ $\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad└�
 [<span style="color:white">growth-grid.ai</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/BusinessPlanGenerator/growth-grid.ai.md)
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────── }}$
+$\color{white}{\text{CLM(ContractLifecycleManagement)}}$
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
+[<span style="color:white">evisort.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/CLM(ContractLifecycleManagement)/evisort.com.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
+[<span style="color:white">icertis.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/CLM(ContractLifecycleManagement)/icertis.com.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
+[<span style="color:white">ironcladapp.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/CLM(ContractLifecycleManagement)/ironcladapp.com.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
+[<span style="color:white">juro.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/CLM(ContractLifecycleManagement)/juro.com.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
+[<span style="color:white">linksquares.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/CLM(ContractLifecycleManagement)/linksquares.com.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
+[<span style="color:white">luminance.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/CLM(ContractLifecycleManagement)/luminance.com.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
+[<span style="color:white">sirion.ai</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/CLM(ContractLifecycleManagement)/sirion.ai.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad└─────────── }}$
+[<span style="color:white">spotdraft.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/CLM(ContractLifecycleManagement)/spotdraft.com.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────── }}$
 $\color{white}{\text{CMP(ConsentManagementPlatform)}}$
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad└─────────── }}$
@@ -42,40 +69,37 @@ $\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad└�
 [<span style="color:white">secureframe.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/GRC(GovernanceRiskCompliance)/secureframe.com.md)
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────── }}$
+$\color{white}{\text{LegalLLM}}$
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
+[<span style="color:white">harvey.ai</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/LegalLLM/harvey.ai.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad└─────────── }}$
+[<span style="color:white">legora.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/LegalLLM/legora.com.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────── }}$
 $\color{white}{\text{LegalTech}}$
-
-$\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
-[<span style="color:white">clearbrief.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/LegalTech/clearbrief.com.md)
-
-$\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
-[<span style="color:white">evisort.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/LegalTech/evisort.com.md)
-
-$\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
-[<span style="color:white">harvey.ai</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/LegalTech/harvey.ai.md)
-
-$\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
-[<span style="color:white">ironcladapp.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/LegalTech/ironcladapp.com.md)
-
-$\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
-[<span style="color:white">legora.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/LegalTech/legora.com.md)
-
-$\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
-[<span style="color:white">linksquares.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/LegalTech/linksquares.com.md)
-
-$\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
-[<span style="color:white">luminance.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/LegalTech/luminance.com.md)
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
 [<span style="color:white">paxton.ai</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/LegalTech/paxton.ai.md)
 
-$\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
-[<span style="color:white">spellbook.legal</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/LegalTech/spellbook.legal.md)
-
-$\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
-[<span style="color:white">supio.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/LegalTech/supio.com.md)
-
 $\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad└─────────── }}$
 [<span style="color:white">theoai.ai</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/LegalTech/theoai.ai.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────── }}$
+$\color{white}{\text{MedicineLegal}}$
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad└─────────── }}$
+[<span style="color:white">supio.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/MedicineLegal/supio.com.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────── }}$
+$\color{white}{\text{MicrosoftWordAddIn}}$
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
+[<span style="color:white">clearbrief.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/MicrosoftWordAddIn/clearbrief.com.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad└─────────── }}$
+[<span style="color:white">spellbook.legal</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/MicrosoftWordAddIn/spellbook.legal.md)
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad└─────────── }}$
 $\color{white}{\text{RegTech}}$
@@ -128,13 +152,7 @@ $\color{white}{\text{Template}}$
 $\color{white}{\text{│\qquad\qquad\qquad\qquad└─────────── }}$
 [<span style="color:white">Template</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/Template/Template.md)
 
-$\color{white}{\text{├─────────── }}$
-[<span style="color:white">icertis.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/icertis.com.md)
-
-$\color{white}{\text{├─────────── }}$
-[<span style="color:white">juro.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/juro.com.md)
-
 $\color{white}{\text{└─────────── }}$
-[<span style="color:white">sirion.ai</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/sirion.ai.md)
+[<span style="color:white">eudia.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/eudia.com.md)
 
 <!-- AUTO-TREE-END -->

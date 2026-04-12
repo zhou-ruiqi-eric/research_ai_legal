@@ -30,54 +30,78 @@ $\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├�
 [<span style="color:white">centraleyes.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/GRC(GovernanceRiskCompliance)/centraleyes.com.md)
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
+[<span style="color:white">freyrregintel.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/GRC(GovernanceRiskCompliance)/freyrregintel.com.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
+[<span style="color:white">scrut.io</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/GRC(GovernanceRiskCompliance)/scrut.io.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
 [<span style="color:white">scytale.ai</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/GRC(GovernanceRiskCompliance)/scytale.ai.md)
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad└─────────── }}$
 [<span style="color:white">secureframe.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/GRC(GovernanceRiskCompliance)/secureframe.com.md)
 
+$\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────── }}$
+$\color{white}{\text{LegalTech}}$
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad├─────────── }}$
+[<span style="color:white">harvey.ai</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/LegalTech/harvey.ai.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad│\qquad\qquad\qquad\qquad└─────────── }}$
+[<span style="color:white">paxton.ai</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/LegalTech/paxton.ai.md)
+
 $\color{white}{\text{│\qquad\qquad\qquad\qquad└─────────── }}$
 $\color{white}{\text{RegTech}}$
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad└─────────── }}$
-[<span style="color:white">compliance.ai</span>]([[github/zhou-ruiqi-eric/research_ai_legal]] [🔗](https://github.com/zhou-ruiqi-eric/research_ai_legal)
+[<span style="color:white">compliance.ai</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Legal/RegTech/compliance.ai.md)
 
 $\color{white}{\text{├─────────── }}$
 $\color{white}{\text{Individual}}$
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad└─────────── }}$
-[<span style="color:white">eric</span>]([[github/zhou-ruiqi-eric/research_ai_legal]] [🔗](https://github.com/zhou-ruiqi-eric/research_ai_legal)
+[<span style="color:white">eric</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/Individual/eric.md)
 
 $\color{white}{\text{├─────────── }}$
 $\color{white}{\text{KnowledgeBase}}$
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────── }}$
-[<span style="color:white">GDPR</span>]([[github/zhou-ruiqi-eric/research_ai_legal]] [🔗](https://github.com/zhou-ruiqi-eric/research_ai_legal)
+[<span style="color:white">Am Law 100</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/KnowledgeBase/Am%20Law%20100.md)
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────── }}$
-[<span style="color:white">HIPAA</span>]([[github/zhou-ruiqi-eric/research_ai_legal]] [🔗](https://github.com/zhou-ruiqi-eric/research_ai_legal)
+[<span style="color:white">Biglaw</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/KnowledgeBase/Biglaw.md)
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────── }}$
-[<span style="color:white">ISO 27001</span>]([[github/zhou-ruiqi-eric/research_ai_legal]] [🔗](https://github.com/zhou-ruiqi-eric/research_ai_legal)
+[<span style="color:white">GDPR</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/KnowledgeBase/GDPR.md)
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────── }}$
-[<span style="color:white">ISO 42001</span>]([[github/zhou-ruiqi-eric/research_ai_legal]] [🔗](https://github.com/zhou-ruiqi-eric/research_ai_legal)
+[<span style="color:white">HIPAA</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/KnowledgeBase/HIPAA.md)
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────── }}$
-[<span style="color:white">PCI DSS</span>]([[github/zhou-ruiqi-eric/research_ai_legal]] [🔗](https://github.com/zhou-ruiqi-eric/research_ai_legal)
+[<span style="color:white">ISO 27001</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/KnowledgeBase/ISO%2027001.md)
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────── }}$
-[<span style="color:white">SOC 1</span>]([[github/zhou-ruiqi-eric/research_ai_legal]] [🔗](https://github.com/zhou-ruiqi-eric/research_ai_legal)
+[<span style="color:white">ISO 42001</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/KnowledgeBase/ISO%2042001.md)
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────── }}$
-[<span style="color:white">SOC 2</span>]([[github/zhou-ruiqi-eric/research_ai_legal]] [🔗](https://github.com/zhou-ruiqi-eric/research_ai_legal)
+[<span style="color:white">PCI DSS</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/KnowledgeBase/PCI%20DSS.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────── }}$
+[<span style="color:white">SOC 1</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/KnowledgeBase/SOC%201.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────── }}$
+[<span style="color:white">SOC 2</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/KnowledgeBase/SOC%202.md)
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad└─────────── }}$
-[<span style="color:white">SOX ITGC</span>]([[github/zhou-ruiqi-eric/research_ai_legal]] [🔗](https://github.com/zhou-ruiqi-eric/research_ai_legal)
+[<span style="color:white">SOX ITGC</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/KnowledgeBase/SOX%20ITGC.md)
 
 $\color{white}{\text{├─────────── }}$
-[<span style="color:white">Template</span>]([[github/zhou-ruiqi-eric/research_ai_legal]] [🔗](https://github.com/zhou-ruiqi-eric/research_ai_legal)
+$\color{white}{\text{Template}}$
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad└─────────── }}$
+[<span style="color:white">Template</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/Template/Template.md)
 
 $\color{white}{\text{└─────────── }}$
-[<span style="color:white">freyrregintel.com</span>]([[github/zhou-ruiqi-eric/research_ai_legal]] [🔗](https://github.com/zhou-ruiqi-eric/research_ai_legal)
+[<span style="color:white">theoai.ai</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/theoai.ai.md)
 
 <!-- AUTO-TREE-END -->

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI-Legal/LegalTech/mitratech.com.md",
+                "file": "AI-Legal/LegalTech/rocketlawyer.com.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "mitratech.com"
+              "title": "rocketlawyer.com"
             }
           }
         ]
@@ -170,8 +170,12 @@
   },
   "active": "def8532c60c1530e",
   "lastOpenFiles": [
-    "AI-Legal/LegalTech/ellis.com.md",
+    "AI-Legal/LegalTech/legalzoom.com.md",
+    "AI-Legal/LegalTech/rocketlawyer.com.md",
+    "Template/Template.md",
+    "AI-Legal/LegalTech/donotpay.com.md",
     "AI-Legal/LegalTech/mitratech.com.md",
+    "AI-Legal/LegalTech/ellis.com.md",
     "AI-Legal/LegalTech/visas.ai.md",
     "AI-Legal/LegalTech/imagility.co.md",
     "AI-Legal/LegalTech/ailaw.ai.md",
@@ -192,10 +196,6 @@
     "AI-Legal/LegalTech/carta.com.md",
     "AI-Legal/LegalTech/caseflood.ai.md",
     "AI-Legal/GRC(GovernanceRiskCompliance)/diligent.com.md",
-    "AI-Legal/LegalTech/smith.ai.md",
-    "AI-Legal/LegalTech/justpoint.com.md",
-    "AI-Legal/LegalTech/apryse.com.md",
-    "AI-Legal/LegalTech/legalmation.com.md",
     "AI-Legal/LegalResearch",
     "AI-Legal/eDiscovery",
     "AI-Legal/MicrosoftWordAddIn",

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI-Legal/LegalTech/rocketlawyer.com.md",
+                "file": "agreements.ai.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "rocketlawyer.com"
+              "title": "agreements.ai"
             }
           }
         ]
@@ -168,10 +168,19 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "def8532c60c1530e",
+  "active": "95b8fc68a5a0918d",
   "lastOpenFiles": [
-    "AI-Legal/LegalTech/legalzoom.com.md",
+    "AI-Legal/CLM(ContractLifecycleManagement)/sirion.ai.md",
+    "agreements.ai.md",
+    "docdraft.ai.md",
+    "trustandwill.com.md",
+    "courtroom5.com.md",
+    "AI-Legal/LegalTech/cetient.com.md",
+    "AI-Legal/LegalTech/lawconnect.com.md",
+    "AI-Legal/LegalTech/ailawyer.pro.md",
+    "AI-Legal/LegalTech/hellodivorce.com.md",
     "AI-Legal/LegalTech/rocketlawyer.com.md",
+    "AI-Legal/LegalTech/legalzoom.com.md",
     "Template/Template.md",
     "AI-Legal/LegalTech/donotpay.com.md",
     "AI-Legal/LegalTech/mitratech.com.md",
@@ -187,15 +196,6 @@
     "AI-Legal/eDiscovery/epiqglobal.com.md",
     "AI-Legal/LegalTech/intapp.com.md",
     "AI-Legal/LegalTech/legatics.com.md",
-    "AI-Legal/RegTech/ascentregtech.com.md",
-    "AI-Legal/GRC(GovernanceRiskCompliance)/vanta.com.md",
-    "AI-Legal/LegalTech/covalynt.com.md",
-    "AI-Legal/GRC(GovernanceRiskCompliance)/freyrregintel.com.md",
-    "AI-Legal/LegalTech/complyadvantage.com.md",
-    "AI-Legal/LegalTech/patsnap.com.md",
-    "AI-Legal/LegalTech/carta.com.md",
-    "AI-Legal/LegalTech/caseflood.ai.md",
-    "AI-Legal/GRC(GovernanceRiskCompliance)/diligent.com.md",
     "AI-Legal/LegalResearch",
     "AI-Legal/eDiscovery",
     "AI-Legal/MicrosoftWordAddIn",

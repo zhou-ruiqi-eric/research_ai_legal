@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "agreements.ai.md",
+                "file": "AI-Legal/LegalTech/agreements.ai.md",
                 "mode": "source",
                 "source": false
               },
@@ -168,13 +168,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "95b8fc68a5a0918d",
+  "active": "def8532c60c1530e",
   "lastOpenFiles": [
+    "AI-Finance/Fintech",
+    "AI-Finance",
     "AI-Legal/CLM(ContractLifecycleManagement)/sirion.ai.md",
-    "agreements.ai.md",
-    "docdraft.ai.md",
-    "trustandwill.com.md",
-    "courtroom5.com.md",
+    "AI-Legal/LegalTech/agreements.ai.md",
+    "AI-Legal/LegalTech/docdraft.ai.md",
+    "AI-Legal/LegalTech/trustandwill.com.md",
+    "AI-Legal/LegalTech/courtroom5.com.md",
     "AI-Legal/LegalTech/cetient.com.md",
     "AI-Legal/LegalTech/lawconnect.com.md",
     "AI-Legal/LegalTech/ailawyer.pro.md",
@@ -195,7 +197,6 @@
     "AI-Legal/LegalTech/grata.com.md",
     "AI-Legal/eDiscovery/epiqglobal.com.md",
     "AI-Legal/LegalTech/intapp.com.md",
-    "AI-Legal/LegalTech/legatics.com.md",
     "AI-Legal/LegalResearch",
     "AI-Legal/eDiscovery",
     "AI-Legal/MicrosoftWordAddIn",
@@ -205,7 +206,6 @@
     "未命名.canvas",
     "AI-Legal/LegalTech",
     "Template",
-    "AI-Legal/GRC(GovernanceRiskCompliance)",
-    "AI-Legal/CMP(ConsentManagementPlatform)"
+    "AI-Legal/GRC(GovernanceRiskCompliance)"
   ]
 }

@@ -14,6 +14,9 @@ $\color{white}{\text{AI-Finance}}$
 $\color{white}{\text{│\qquad\qquad\qquad\qquad└─────────── }}$
 $\color{white}{\text{Fintech}}$
 
+$\color{white}{\text{│\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad├─────────── }}$
+[<span style="color:white">rillet.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Finance/Fintech/rillet.com.md)
+
 $\color{white}{\text{│\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad└─────────── }}$
 [<span style="color:white">rogo.ai</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Finance/Fintech/rogo.ai.md)
 

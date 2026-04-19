@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI-Finance/Fintech/rogo.ai.md",
+                "file": "AI-Finance/Fintech/rillet.com.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "rogo.ai"
+              "title": "rillet.com"
             }
           }
         ]
@@ -165,13 +165,17 @@
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
   "active": "def8532c60c1530e",
   "lastOpenFiles": [
-    "Template/Template.md",
     "AI-Finance/Fintech/rogo.ai.md",
+    "AI-Finance/Fintech/rillet.com.md",
+    "Excalidraw/Drawing 2026-04-19 11.08.08.excalidraw.md",
+    "Excalidraw",
+    "Template/Template.md",
     "未命名.canvas",
     "AI-Legal/LegalTech/agreements.ai.md",
     "AI-Finance/Fintech",
@@ -197,14 +201,12 @@
     "AI-Legal/LegalTech/parley.so.md",
     "AI-Legal/LegalLLM/integreon.com.md",
     "AI-Legal/LegalTech/grata.com.md",
-    "AI-Legal/eDiscovery/epiqglobal.com.md",
     "AI-Legal/LegalResearch",
     "AI-Legal/eDiscovery",
     "AI-Legal/MicrosoftWordAddIn",
     "AI-Legal/LegalLLM",
     "AI-Legal/MedicineLegal",
     "AI-Legal/CLM(ContractLifecycleManagement)",
-    "AI-Legal/LegalTech",
-    "Template"
+    "AI-Legal/LegalTech"
   ]
 }

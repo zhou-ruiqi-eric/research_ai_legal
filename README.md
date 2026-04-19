@@ -11,14 +11,35 @@ The goal of this project is to provide a clear overview of all major categories 
 $\color{white}{\text{├─────────── }}$
 $\color{white}{\text{AI-Finance}}$
 
+$\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────── }}$
+[<span style="color:white">auditoria.ai</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Finance/auditoria.ai.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────── }}$
+[<span style="color:white">bretton.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Finance/bretton.com.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────── }}$
+[<span style="color:white">edgehound.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Finance/edgehound.com.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────── }}$
+[<span style="color:white">finpilot.ai</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Finance/finpilot.ai.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────── }}$
+[<span style="color:white">profluo.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Finance/profluo.com.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────── }}$
+[<span style="color:white">reflexivity.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Finance/reflexivity.com.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────── }}$
+[<span style="color:white">reserv.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Finance/reserv.com.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────── }}$
+[<span style="color:white">rillet.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Finance/rillet.com.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────── }}$
+[<span style="color:white">rogo.ai</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Finance/rogo.ai.md)
+
 $\color{white}{\text{│\qquad\qquad\qquad\qquad└─────────── }}$
-$\color{white}{\text{Fintech}}$
-
-$\color{white}{\text{│\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad├─────────── }}$
-[<span style="color:white">rillet.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Finance/Fintech/rillet.com.md)
-
-$\color{white}{\text{│\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad└─────────── }}$
-[<span style="color:white">rogo.ai</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Finance/Fintech/rogo.ai.md)
+[<span style="color:white">zocks.io</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Finance/zocks.io.md)
 
 $\color{white}{\text{├─────────── }}$
 $\color{white}{\text{AI-Legal}}$

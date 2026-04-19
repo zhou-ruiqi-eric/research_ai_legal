@@ -18,10 +18,16 @@ $\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────�
 [<span style="color:white">bretton.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Finance/bretton.com.md)
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────── }}$
+[<span style="color:white">compassapp.ai</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Finance/compassapp.ai.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────── }}$
 [<span style="color:white">edgehound.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Finance/edgehound.com.md)
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────── }}$
 [<span style="color:white">finpilot.ai</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Finance/finpilot.ai.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────── }}$
+[<span style="color:white">goldbridgebanking.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Finance/goldbridgebanking.com.md)
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────── }}$
 [<span style="color:white">profluo.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Finance/profluo.com.md)
@@ -37,6 +43,12 @@ $\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────�
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────── }}$
 [<span style="color:white">rogo.ai</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Finance/rogo.ai.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────── }}$
+[<span style="color:white">selfin.app</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Finance/selfin.app.md)
+
+$\color{white}{\text{│\qquad\qquad\qquad\qquad├─────────── }}$
+[<span style="color:white">standardsignal.com</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Finance/standardsignal.com.md)
 
 $\color{white}{\text{│\qquad\qquad\qquad\qquad└─────────── }}$
 [<span style="color:white">zocks.io</span>](https://github.com/zhou-ruiqi-eric/research_ai_legal/blob/master/AI-Finance/zocks.io.md)

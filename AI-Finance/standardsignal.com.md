@@ -1,0 +1,13 @@
+autonomous AI hedge fund / quantitative trading / fintech in the alternative investments space
+100% AI, no human
+
+| Target User <br>(ToB, ToC)                          | ToB                                                                                                                                                                                                                                                                              |
+| --------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Founded Date                                        | 2026                                                                                                                                                                                                                                                                             |
+| Product / Service                                   | Autonomous AI hedge fund: frontier financial LLMs that research markets/global events in real time, identify trading signals/inefficiencies, reason step-by-step, and execute trades autonomously under risk constraints. Market-neutral strategy with explainable decisions.    |
+| Pain Points                                         | Human and traditional quant limitations in discovering hidden patterns/inefficiencies in complex, high-volume data; latency in research/execution; lack of fully explainable "black-box" decisions; inability to act on new fundamental truths before the market prices them in. |
+| Price                                               | Custom                                                                                                                                                                                                                                                                           |
+| Can I try it<br>Yes / No, Book a demo or Developing | No                                                                                                                                                                                                                                                                               |
+
+
+YC Spring 2026 batch

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI-Finance/Fintech/rillet.com.md",
+                "file": "AI-Finance/profluo.com.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "rillet.com"
+              "title": "profluo.com"
             }
           }
         ]
@@ -171,8 +171,18 @@
   },
   "active": "def8532c60c1530e",
   "lastOpenFiles": [
-    "AI-Finance/Fintech/rogo.ai.md",
-    "AI-Finance/Fintech/rillet.com.md",
+    "AI-Finance/edgehound.com.md",
+    "AI-Finance/profluo.com.md",
+    "AI-Finance/bretton.com.md",
+    "AI-Finance/auditoria.ai.md",
+    "AI-Finance/finpilot.ai.md",
+    "AI-Finance/reflexivity.com.md",
+    "AI-Finance/rillet.com.md",
+    "AI-AI/AI",
+    "AI-AI",
+    "AI-Finance/zocks.io.md",
+    "AI-Finance/reserv.com.md",
+    "AI-Finance/rogo.ai.md",
     "Excalidraw/Drawing 2026-04-19 11.08.08.excalidraw.md",
     "Excalidraw",
     "Template/Template.md",
@@ -193,20 +203,10 @@
     "AI-Legal/LegalTech/donotpay.com.md",
     "AI-Legal/LegalTech/mitratech.com.md",
     "AI-Legal/LegalTech/ellis.com.md",
-    "AI-Legal/LegalTech/visas.ai.md",
-    "AI-Legal/LegalTech/imagility.co.md",
-    "AI-Legal/LegalTech/ailaw.ai.md",
-    "AI-Legal/LegalTech/draftyai.com.md",
-    "AI-Legal/LegalTech/visalaw.ai.md",
-    "AI-Legal/LegalTech/parley.so.md",
-    "AI-Legal/LegalLLM/integreon.com.md",
-    "AI-Legal/LegalTech/grata.com.md",
     "AI-Legal/LegalResearch",
     "AI-Legal/eDiscovery",
     "AI-Legal/MicrosoftWordAddIn",
     "AI-Legal/LegalLLM",
-    "AI-Legal/MedicineLegal",
-    "AI-Legal/CLM(ContractLifecycleManagement)",
-    "AI-Legal/LegalTech"
+    "AI-Legal/MedicineLegal"
   ]
 }
